@@ -1,0 +1,20 @@
+
+state={
+	id=592
+	name="STATE_592"
+
+	history={
+		owner = EHY
+		buildings = {
+
+		}
+		add_core_of = EHY
+
+	}
+
+	provinces={
+		3300 3301 3302 3303 5358 5988 6038 6086 6882 8108 8746 9178 9572 10229 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

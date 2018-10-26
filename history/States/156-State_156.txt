@@ -1,0 +1,20 @@
+
+state={
+	id=156
+	name="STATE_156"
+
+	history={
+		owner = RYL
+		buildings = {
+
+		}
+		add_core_of = RYL
+
+	}
+
+	provinces={
+		144 147 148 149 150 151 155 165 166 171 172 173 174 1320 1321 4942 6398 8530 8836 8841 9414 9415 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

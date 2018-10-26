@@ -1,0 +1,20 @@
+
+state={
+	id=212
+	name="STATE_212"
+
+	history={
+		owner = HEN
+		buildings = {
+
+		}
+		add_core_of = HEN
+
+	}
+
+	provinces={
+		4822 4823 4824 6565 6567 10143 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

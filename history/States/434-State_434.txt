@@ -1,0 +1,19 @@
+
+state={
+	id=434
+	name="STATE_434"
+
+	history={
+		owner = GAL
+		buildings = {
+
+		}
+
+	}
+
+	provinces={
+		522 523 524 525 526 527 528 529 530 3608 3609 3610 3611 3617 4113 4855 5220 5221 7122 7123 8827 9284 9639 10260 10261 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,14 @@
+state={
+	id=194
+	name="STATE_194"
+	provinces={
+		2166 2167 3824 3825 3826 4799 4800 5298 6924 8851 8821 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = LUM
+		buildings = {	}
+		add_core_of = LUM
+	}
+}

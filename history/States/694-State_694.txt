@@ -1,0 +1,13 @@
+state={
+	id=694
+	name="STATE_694"
+	provinces={
+		4088 5979 2858 7044 2193 2194 2195 2444 2445 2446 3394 4089 4090 4091 4092 4094 4095 4827 5789 6554 7240 7241 7527 7528 8001 8109 9948 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = WER
+		buildings = {	}
+	}
+}

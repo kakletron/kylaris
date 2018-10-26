@@ -1,0 +1,19 @@
+
+state={
+	id=360
+	name="STATE_360"
+
+	history={
+		owner = EST
+		buildings = {
+
+		}
+
+	}
+
+	provinces={
+		998 3195 5155 5387 6655 7432 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

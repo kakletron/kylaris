@@ -1,0 +1,20 @@
+
+state={
+	id=81
+	name="STATE_81"
+
+	history={
+		owner = AZM
+		buildings = {
+
+		}
+		add_core_of = AZM
+
+	}
+
+	provinces={
+		3426 3427 3430 6224 6225 6231 6453 7106 8235 8410 9195 9244 10193 10194 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

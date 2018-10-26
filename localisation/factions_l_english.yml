@@ -1,0 +1,9 @@
+﻿l_english:
+ FACTION_LEADER:0 "Faction leader: §Y$COUNTRY$§!"
+ FACTION_MEMBER:0 "Faction member: §Y$COUNTRY$§!"
+ FACTION_NAME_GER_fascism:0 "Axis"
+ FACTION_NAME_GER_none:0 "Axis"
+ FACTION_NAME_IDEOLOGY_DEFAULT:0 "Supporters of $IDEOLOGY$"
+ grand_alliance_faction:0 "Grand Alliance"
+ entente_faction:0 "Entente"
+ international_congress_faction:0 "International Congress"

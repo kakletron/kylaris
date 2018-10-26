@@ -1,0 +1,158 @@
+bookmarks = {
+	bookmark = {
+		name = "POWDER_KEG_NAME"
+		desc = "POWDER_KEG_DESC"
+		date = 1926.1.1.12
+		picture = "GFX_select_date_1926"
+		default_country = "GAL"
+		default = yes
+		
+		"WER"={
+			history = "WER_POWDER_KEG_DESC"
+			ideology = traditionalist
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"FOA"={
+			history = "FOA_POWDER_KEG_DESC"
+			ideology = liberal_democrat
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"EST"={
+			history = "EST_POWDER_KEG_DESC"
+			ideology = liberal_democrat
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"GAL"={
+			history = "GAL_POWDER_KEG_DESC"
+			ideology = functionalist
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"ETR"={
+			history = "ETR_POWDER_KEG_DESC"
+			ideology = liberal_democrat
+			ideas={
+			}
+			focuses = {
+			}			
+		}
+		"NEG"={
+			history = "NEG_POWDER_KEG_DESC"
+			ideology = liberal_democrat
+			ideas={
+			}
+			focuses = {
+			}		
+		}
+		"MAR"={
+			history = "MAR_POWDER_KEG_DESC"
+			ideology = collectivist
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+
+		"---"={
+			history = "OTHER_POWDER_KEG_DESC"
+		}
+
+
+		# minors ####
+		"BER"={
+			minor = yes
+			history = "OTHER_POWDER_KEG_DESC"
+			ideology = traditionalist
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		
+		"SON"={
+			minor = yes
+			history = "OTHER_POWDER_KEG_DESC"
+			ideology = traditionalist
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+
+		"NEM"={
+			minor = yes
+			history = "OTHER_POWDER_KEG_DESC"
+			ideology = traditionalist
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+
+		"AMA"={
+			minor = yes
+			history = "OTHER_POWDER_KEG_DESC"
+			ideology = functionalist
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		
+		"FLO"={
+			minor = yes
+			history = "OTHER_POWDER_KEG_DESC"
+			ideology = traditionalist
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		
+		"MRI"={
+			minor = yes
+			history = "OTHER_POWDER_KEG_DESC"
+			ideology = functionalist
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		
+		"NIM"={
+			minor = yes
+			history = "OTHER_POWDER_KEG_DESC"
+			ideology = functionalist
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		
+		"SAT"={
+			minor = yes
+			history = "OTHER_POWDER_KEG_DESC"
+			ideology = functionalist
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

@@ -1,0 +1,20 @@
+
+state={
+	id=359
+	name="STATE_359"
+
+	history={
+		owner = PLT
+		buildings = {
+
+		}
+		add_core_of = PLT
+
+	}
+
+	provinces={
+		1597 1598 3587 3588 7577 8049 9023 9153 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

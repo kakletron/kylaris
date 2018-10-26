@@ -1,0 +1,14 @@
+state={
+	id=698
+	name="STATE_698"
+	provinces={
+		10127 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = VRE
+		buildings = {	}
+		add_core_of = SON
+	}
+}

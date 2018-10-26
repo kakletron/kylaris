@@ -1,0 +1,20 @@
+
+state={
+	id=208
+	name="STATE_208"
+
+	history={
+		owner = FOA
+		buildings = {
+
+		}
+		add_core_of = FOA
+
+	}
+
+	provinces={
+		3045 3046 3047 3048 3049 3050 3051 4078 4079 4721 4723 4842 4843 5424 5426 6199 6409 6410 6411 7837 8513 8514 9030 9031 9429 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

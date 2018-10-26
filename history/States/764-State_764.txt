@@ -1,0 +1,14 @@
+state={
+	id=764
+	name="STATE_764"
+	provinces={
+		680 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = EST
+		buildings = {	}
+		add_core_of = SON
+	}
+}

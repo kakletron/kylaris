@@ -1,0 +1,14 @@
+state={
+	id=262
+	name="STATE_262"
+	provinces={
+		6919 9879 6918 1348 2476 3082 3083 4641 4642 7217 7246 7247 7656 8335 8336 9537 3085 1349 3084 6966 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = AUZ
+		buildings = {	}
+		add_core_of = AUZ
+	}
+}

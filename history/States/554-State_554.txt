@@ -1,0 +1,14 @@
+state={
+	id=554
+	name="STATE_554"
+	provinces={
+		1545 1546 1547 1551 1552 3951 5915 6373 6665 6666 5125 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = SAR
+		buildings = {	}
+		add_core_of = SAR
+	}
+}

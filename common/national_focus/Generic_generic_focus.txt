@@ -1,0 +1,1514 @@
+focus_tree = { 
+id = generic_focus
+country = { 
+factor = 0 
+modifier = { 
+add = 10 
+tag = Generic 
+}
+}
+#Focus for State of the World
+focus = {
+id = Generic_stateoftheworld
+icon = GFX_focus_rom_parties_end
+x = 16
+y = 0
+cost = 0.2
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+add_political_power = 50
+country_event = {
+days = 1 
+id = stateoftheworld.1
+}
+ }
+
+ }
+
+#Focus for Industrial Revolution
+focus = {
+id = Generic_industrialrevolution
+icon = GFX_goal_generic_construct_civilian
+x = 3
+y = 1
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Generic_stateoftheworld } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+add_tech_bonus = {
+ bonus = 0.5 
+uses = 2 
+category = industry
+}
+ }
+
+ }
+
+#Focus for Rearmament
+focus = { 
+id = Generic_rearmament
+icon = GFX_goal_generic_construct_mil_factory
+x = 4
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Generic_industrialrevolution } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+random_owned_controlled_state = {
+add_extra_state_shared_building_slots = 2
+
+add_building_construction = { 
+type = arms_factory
+level = 2
+instant_build = yes }
+}
+ } 
+
+ }
+ 
+#Focus for Rearmament II
+focus = { 
+id = Generic_rearmamentii
+icon = GFX_goal_generic_construct_mil_factory
+x = 4
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Generic_rearmament } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+random_owned_controlled_state = {
+add_extra_state_shared_building_slots = 2
+
+add_building_construction = { 
+type = arms_factory
+level = 2
+instant_build = yes }
+}
+ } 
+
+ }
+ 
+#Focus for Rearmament III
+focus = { 
+id = Generic_rearmamentiii
+icon = GFX_goal_generic_construct_mil_factory
+x = 5
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Generic_rearmamentii } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+random_owned_controlled_state = {
+add_extra_state_shared_building_slots = 2
+
+add_building_construction = { 
+type = arms_factory
+level = 2
+instant_build = yes }
+}
+ } 
+
+ }
+
+#Focus for Reconstruction
+focus = { 
+id = Generic_reconstruction
+icon = GFX_goal_generic_construct_civ_factory
+x = 2
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Generic_industrialrevolution } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+random_owned_controlled_state = {
+add_extra_state_shared_building_slots = 2
+
+add_building_construction = {
+type = industrial_complex
+level = 2
+instant_build = yes }
+}
+ }
+
+ }
+
+#Focus for Reconstruction II
+focus = { 
+id = Generic_reconstructionii
+icon = GFX_goal_generic_construct_civ_factory
+x = 2
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Generic_reconstruction } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+random_owned_controlled_state = {
+add_extra_state_shared_building_slots = 2
+
+add_building_construction = {
+type = industrial_complex
+level = 2
+instant_build = yes }
+}
+ }
+
+ }
+ 
+#Focus for Reconstruction III
+focus = { 
+id = Generic_reconstructioniii
+icon = GFX_goal_generic_construct_civ_factory
+x = 1
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Generic_reconstructionii } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+random_owned_controlled_state = {
+add_extra_state_shared_building_slots = 2
+
+add_building_construction = {
+type = industrial_complex
+level = 2
+instant_build = yes }
+}
+ }
+
+ }
+ 
+#Focus for Increased Research Capability
+focus = { 
+id = Generic_increasedresearchcapability
+icon = GFX_focus_research
+x = 1
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Generic_reconstructioniii } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+add_research_slot = 1
+ }
+
+ }
+ 
+#Focus for Military Technology Department
+focus = { 
+id = Generic_militarytechnologydepartment
+icon = GFX_focus_research
+x = 5
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Generic_rearmamentiii } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+add_research_slot = 1
+ }
+
+ }
+ 
+#Focus for Infrastructure Investment
+focus = { 
+id = Generic_infrastructureinvestment
+icon = GFX_goal_generic_construct_infrastructure
+x = 3
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Generic_reconstructionii } 
+prerequisite = { focus = Generic_rearmamentii } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+random_owned_controlled_state = {
+add_extra_state_shared_building_slots = 2
+
+add_building_construction = {
+type = infrastructure
+level = 2
+instant_build = yes }
+}
+ }
+
+ }
+ 
+#Focus for Infrastructure Investment II
+focus = { 
+id = Generic_infrastructureinvestmentii
+icon = GFX_goal_generic_construct_infrastructure
+x = 3
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Generic_infrastructureinvestment } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+random_owned_controlled_state = {
+add_extra_state_shared_building_slots = 2
+
+add_building_construction = {
+type = infrastructure
+level = 2
+instant_build = yes }
+}
+ }
+
+ }
+ 
+#Focus for Superweapon Development
+focus = { 
+id = Generic_superweapondevelopment
+icon = GFX_focus_wonderweapons
+x = 3
+y = 6
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Generic_infrastructureinvestmentii } 
+prerequisite = { focus = Generic_militarytechnologydepartment } 
+prerequisite = { focus = Generic_increasedresearchcapability } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				category = nuclear
+				category = rocketry
+			}
+ }
+
+ }
+ 
+#Focus for Ideological Policy
+focus = {
+id = Generic_ideologicalpolicy
+icon = GFX_goal_generic_demand_territory
+x = 13
+y = 1
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Generic_stateoftheworld } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+add_political_power = 150
+ }
+
+ }
+ 
+#Focus for Go Left
+focus = {
+id = Generic_goleft
+icon = GFX_focus_rom_abdicate
+x = 10
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Generic_ideologicalpolicy } 
+mutually_exclusive = { focus = Generic_onthefence } 
+mutually_exclusive = { focus = Generic_goright } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+add_ideas = leftward_drift
+ }
+
+ }
+ 
+#Focus for On the Fence
+focus = {
+id = Generic_onthefence
+icon = GFX_focus_rom_handle_king
+x = 13
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Generic_ideologicalpolicy } 
+mutually_exclusive = { focus = Generic_goleft } 
+mutually_exclusive = { focus = Generic_goright } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+add_ideas = stalwart_centre
+ }
+
+ }
+
+#Focus for Go Right
+focus = {
+id = Generic_goright
+icon = GFX_focus_rom_royal_dictatorship
+x = 16
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Generic_ideologicalpolicy } 
+mutually_exclusive = { focus = Generic_onthefence } 
+mutually_exclusive = { focus = Generic_goleft } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+add_ideas = rightward_drift
+ }
+
+ }
+
+#Focus for Collectivist
+focus = {
+id = Generic_collectivist
+icon = GFX_goal_support_communism
+x = 9
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Generic_goleft } 
+mutually_exclusive = { focus = Generic_radicalpopulist } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+add_popularity = {
+    ideology = collectivist
+    popularity = 0.2
+}
+ }
+
+ }
+ 
+#Focus for Radical Populist
+focus = {
+id = Generic_radicalpopulist
+icon = GFX_focus_prc_agrarian_socialism
+x = 11
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Generic_goleft
+				 focus = Generic_onthefence } 
+mutually_exclusive = { focus = Generic_collectivist } 
+mutually_exclusive = { focus = Generic_liberaldemocrat }
+mutually_exclusive = { focus = Generic_traditionalist } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+add_popularity = {
+    ideology = radical_populist
+    popularity = 0.2
+}
+ }
+
+ }
+
+#Focus for Liberal Democrat
+focus = {
+id = Generic_liberaldemocrat
+icon = GFX_goal_support_democracy
+x = 13
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Generic_onthefence } 
+mutually_exclusive = { focus = Generic_radicalpopulist } 
+mutually_exclusive = { focus = Generic_traditionalist } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+add_popularity = {
+    ideology = liberal_democrat
+    popularity = 0.2
+}
+ }
+
+ }
+ 
+#Focus for Traditionalist
+focus = {
+id = Generic_traditionalist
+icon = GFX_goal_generic_defence
+x = 15
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Generic_onthefence
+				 focus = Generic_goright } 
+mutually_exclusive = { focus = Generic_liberaldemocrat } 
+mutually_exclusive = { focus = Generic_functionalist } 
+mutually_exclusive = { focus = Generic_radicalpopulist } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+add_popularity = {
+    ideology = traditionalist
+    popularity = 0.2
+}
+ }
+
+ }
+ 
+#Focus for Functionalist
+focus = {
+id = Generic_functionalist
+icon = GFX_goal_support_fascism
+x = 17
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Generic_goright } 
+mutually_exclusive = { focus = Generic_traditionalist } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+add_popularity = {
+    ideology = functionalist
+    popularity = 0.2
+}
+ }
+
+ }
+ 
+#Focus for Dictatorship of the Oppressed
+focus = {
+id = Generic_dictatorshipoftheoppressed
+icon = GFX_goal_generic_forceful_treaty
+x = 8
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Generic_collectivist} 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = {
+add_political_power = 250
+}
+
+ }
+ 
+#Focus for Share the Wealth
+focus = {
+id = Generic_sharethewealth
+icon = GFX_focus_generic_concessions
+x = 10
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Generic_collectivist 
+				 focus = Generic_radicalpopulist } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = {
+add_political_power = 50
+add_ideas = share_the_wealth
+}
+
+ }
+ 
+#Focus for Public Works
+focus = {
+id = Generic_publicworks
+icon = GFX_goal_generic_construction2
+x = 12
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Generic_liberaldemocrat 
+				 focus = Generic_radicalpopulist } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = {
+add_political_power = 250
+}
+
+ }
+ 
+#Focus for Support Small Businesses
+focus = {
+id = Generic_smallbusiness
+icon = GFX_goal_generic_consumer_goods
+x = 14
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Generic_liberaldemocrat 
+				 focus = Generic_traditionalist } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = {
+add_political_power = 50
+add_ideas = support_small_businesses
+}
+
+ }
+ 
+#Focus for National Pride
+focus = {
+id = Generic_nationalpride
+icon = GFX_goal_generic_political_pressure
+x = 16
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Generic_functionalist 
+				 focus = Generic_traditionalist } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = {
+add_political_power = 250
+}
+
+ }
+ 
+#Focus for Supreme Leader
+focus = {
+id = Generic_supremeleader
+icon = GFX_focus_generic_military_mission
+x = 18
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Generic_functionalist }
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = {
+add_political_power = 50
+add_ideas = supreme_leader
+}
+
+ }
+ 
+#Focus for Greater Good
+focus = {
+id = Generic_greatergood
+icon = GFX_goal_generic_dangerous_deal
+x = 8
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Generic_dictatorshipoftheoppressed } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = {
+add_political_power = 50
+add_ideas = greater_good
+}
+
+ }
+
+#Focus for Land Redistribution
+focus = {
+id = Generic_landredistribution
+icon = GFX_focus_generic_self_management
+x = 10
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Generic_sharethewealth } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = {
+add_political_power = 250
+}
+
+ }
+ 
+#Focus for Welfare System
+focus = {
+id = Generic_welfare
+icon = GFX_goal_generic_national_unity
+x = 12
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Generic_publicworks } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = {
+add_political_power = 50
+add_ideas = welfare
+}
+
+ }
+ 
+#Focus for Capitalist System
+focus = {
+id = Generic_capitalism
+icon = GFX_focus_generic_the_giant_wakes
+x = 14
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Generic_smallbusiness } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = {
+add_political_power = 250
+}
+
+ }
+ 
+#Focus for Veteran Care
+focus = {
+id = Generic_veterancare
+icon = GFX_focus_generic_strike_at_democracy1
+x = 16
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Generic_nationalpride } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = {
+add_political_power = 50
+add_ideas = veteran_care
+}
+
+ }
+ 
+#Focus for Autarky
+focus = {
+id = Generic_autarky
+icon = GFX_goal_generic_trade
+x = 18
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Generic_supremeleader } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = {
+add_political_power = 250
+}
+
+ }
+ 
+#Focus for Conscription by Coercion
+focus = {
+id = Generic_conscriptionbycoercion
+icon = GFX_goal_generic_war_with_comintern
+x = 8
+y = 6
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Generic_greatergood } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = {
+add_political_power = 50
+add_ideas = coercive_conscription
+}
+
+ }
+ 
+#Focus for Seize the Means
+focus = {
+id = Generic_seizethemeans
+icon = GFX_goal_generic_soviet_construction
+x = 10
+y = 6
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Generic_landredistribution } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = {
+add_political_power = 50
+add_ideas = seize_the_means
+}
+
+ }
+
+#Focus for Trade Union Participation
+focus = {
+id = Generic_tradeunionparticipation
+icon = GFX_goal_generic_production
+x = 12
+y = 6
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Generic_welfare } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = {
+add_political_power = 50
+add_ideas = trade_unions
+}
+
+ }
+ 
+#Focus for Wealthy Donors
+focus = {
+id = Generic_wealthydonors
+icon = GFX_goal_generic_intelligence_exchange
+x = 14
+y = 6
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Generic_capitalism } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = {
+add_political_power = 50
+add_ideas = wealthy_donors
+}
+
+ }
+
+#Focus for Old Habits
+focus = {
+id = Generic_oldhabits
+icon = GFX_focus_generic_home_defense
+x = 16
+y = 6
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Generic_veterancare } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = {
+add_political_power = 50
+add_ideas = old_habits
+}
+
+ }
+ 
+#Focus for National Mobilisation
+focus = {
+id = Generic_nationalmobilisation
+icon = GFX_focus_secret_rearmament
+x = 18
+y = 6
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Generic_autarky } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = {
+add_political_power = 50
+add_ideas = national_mobilisation
+}
+
+ }
+ 
+#Focus for Created Equal
+focus = {
+id = Generic_createdequal
+icon = GFX_focus_generic_military_academy
+x = 10
+y = 7
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Generic_conscriptionbycoercion
+				 focus = Generic_seizethemeans
+				 focus = Generic_tradeunionparticipation } 
+mutually_exclusive = { focus = Generic_createdsuperior } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = {
+add_political_power = 200
+add_ideas = equal
+}
+
+ }
+ 
+#Focus for Created Superior
+focus = {
+id = Generic_createdsuperior
+icon = GFX_goal_demand_sudetenland
+x = 16
+y = 7
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Generic_wealthydonors
+				 focus = Generic_oldhabits
+				 focus = Generic_nationalmobilisation } 
+mutually_exclusive = { focus = Generic_createdequal } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = {
+add_political_power = 200
+add_ideas = superior
+}
+
+ }
+ 
+#Focus for Political Science
+focus = {
+id = Generic_politicalscience
+icon = GFX_goal_tfv_generic_tech_sharing
+x = 13
+y = 8
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Generic_createdequal
+				 focus = Generic_createdsuperior }
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = {
+add_research_slot = 1
+}
+
+ }
+ 
+#Focus for Military Policy
+focus = {
+id = Generic_militarypolicy
+icon = GFX_focus_generic_combined_arms
+x = 27
+y = 1
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Generic_stateoftheworld } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+add_tech_bonus = {
+ bonus = 0.5
+uses = 3
+category = land_doctrine
+category = air_doctrine
+category = naval_doctrine
+}
+ }
+
+ }
+ 
+#Focus for Army
+focus = {
+id = Generic_army
+icon = GFX_goal_generic_allies_build_infantry
+x = 22
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Generic_militarypolicy } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+army_experience = 5
+add_tech_bonus = {
+ bonus = 0.1
+uses = 1
+category = land_doctrine
+}
+ }
+
+ }
+ 
+#Focus for Service Rifle
+focus = {
+id = Generic_servicerifle
+icon = GFX_goal_generic_small_arms
+x = 21
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Generic_army } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+add_tech_bonus = {
+ bonus = 0.5
+uses = 1
+category = infantry_weapons
+}
+
+add_equipment_to_stockpile = {
+    type = infantry_equipment
+    amount = 1000
+}
+ }
+
+ }
+ 
+#Focus for Modern Artillery
+focus = {
+id = Generic_modernartillery
+icon = GFX_goal_generic_army_artillery2
+x = 23
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Generic_army } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+add_tech_bonus = {
+ bonus = 0.5
+uses = 1
+category = artillery
+}
+
+add_equipment_to_stockpile = {
+    type = artillery_equipment
+    amount = 200
+}
+ }
+
+ }
+ 
+#Focus for New Doctrine
+focus = {
+id = Generic_newdoctrine
+icon = GFX_goal_generic_army_doctrines
+x = 22
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Generic_modernartillery
+				 focus = Generic_servicerifle } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+add_tech_bonus = {
+ bonus = 0.5
+uses = 1
+category = land_doctrine
+}
+ }
+
+ }
+ 
+#Focus for Tank Development
+focus = {
+id = Generic_tankdevelopment
+icon = GFX_goal_generic_army_tanks
+x = 22
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Generic_newdoctrine } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+add_tech_bonus = {
+ bonus = 0.5
+uses = 1
+category = armor
+}
+ }
+
+ }
+ 
+#Focus for Cavalry Supremacy
+focus = {
+id = Generic_cavalry
+icon = GFX_goal_generic_cavalry
+x = 21
+y = 6
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Generic_tankdevelopment } 
+mutually_exclusive = { focus = Generic_motorised } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { army_experience = 50
+ }
+
+ }
+ 
+#Focus for Motorised Supremacy
+focus = {
+id = Generic_motorised
+icon = GFX_goal_generic_army_motorized
+x = 23
+y = 6
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Generic_tankdevelopment } 
+mutually_exclusive = { focus = Generic_cavalry } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = {
+add_tech_bonus = {
+ bonus = 0.5
+uses = 1
+category = motorized_equipment
+}
+ }
+
+ }
+ 
+#Focus for Alternate Doctrine
+focus = {
+id = Generic_alternatedoctrine
+icon = GFX_goal_generic_army_doctrines
+x = 22
+y = 7
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Generic_cavalry
+				 focus = Generic_motorised} 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = {
+army_experience = 10
+add_tech_bonus = {
+ bonus = 0.5
+uses = 2
+category = land_doctrine
+}
+ }
+
+ }
+ 
+#Focus for Airforce
+focus = {
+id = Generic_airforce
+icon = GFX_goal_generic_build_airforce
+x = 27
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Generic_militarypolicy } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+air_experience = 5
+add_tech_bonus = {
+ bonus = 0.1
+uses = 1
+category = air_doctrine
+}
+ }
+
+ }
+ 
+#Focus for Fighters
+focus = {
+id = Generic_fighters
+icon = GFX_goal_generic_air_fighter
+x = 26
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Generic_airforce } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+add_tech_bonus = {
+ bonus = 0.5
+uses = 1
+category = light_air
+}
+
+add_equipment_to_stockpile = {
+    type = fighter_equipment
+    amount = 150
+}
+ }
+
+ }
+ 
+#Focus for Bombers
+focus = {
+id = Generic_bombers
+icon = GFX_goal_generic_air_bomber
+x = 28
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Generic_airforce } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+add_tech_bonus = {
+ bonus = 0.5
+uses = 1
+category = medium_air
+}
+
+add_equipment_to_stockpile = {
+    type = tac_bomber_equipment
+    amount = 50
+}
+ }
+
+ }
+ 
+#Focus for New Formations
+focus = {
+id = Generic_newformations
+icon = GFX_goal_generic_air_doctrine
+x = 27
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Generic_bombers
+				 focus = Generic_fighters } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+add_tech_bonus = {
+ bonus = 0.5
+uses = 1
+category = air_doctrine
+}
+ }
+
+ }
+ 
+#Focus for Paratroopers
+focus = {
+id = Generic_paratroopers
+icon = GFX_focus_generic_paratrooper
+x = 27
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Generic_newformations } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = {
+add_tech_bonus = {
+ bonus = 0.5
+uses = 1
+technology = paratroopers
+}
+ }
+
+ }
+ 
+#Focus for Heavy Craft
+focus = {
+id = Generic_heavycraft
+icon = GFX_focus_chi_flying_tigers
+x = 26
+y = 6
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Generic_paratroopers } 
+mutually_exclusive = { focus = Generic_jets } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = {
+add_tech_bonus = {
+ bonus = 0.5
+uses = 1
+category = heavy_air
+}
+ }
+
+ }
+ 
+#Focus for Jets
+focus = {
+id = Generic_jets
+icon = GFX_goal_generic_air_fighter2
+x = 28
+y = 6
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Generic_paratroopers } 
+mutually_exclusive = { focus = Generic_heavycraft } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = {
+add_tech_bonus = {
+ bonus = 0.5
+uses = 1
+technology = jet_engines
+}
+ }
+
+ }
+ 
+#Focus for Updated Tactics
+focus = {
+id = Generic_updatedtactics
+icon = GFX_goal_generic_air_doctrine
+x = 27
+y = 7
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Generic_heavycraft
+				 focus = Generic_jets } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+air_experience = 10
+add_tech_bonus = {
+ bonus = 0.5
+uses = 2
+category = air_doctrine
+}
+ }
+
+ }
+ 
+#Focus for Navy
+focus = {
+id = Generic_navy
+icon = GFX_goal_generic_build_navy
+x = 32
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Generic_militarypolicy } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+air_experience = 5
+add_tech_bonus = {
+ bonus = 0.1
+uses = 1
+category = air_doctrine
+}
+ }
+
+ }
+ 
+#Focus for Destroyers
+focus = {
+id = Generic_destroyers
+icon = GFX_goal_generic_wolf_pack
+x = 31
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Generic_navy } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+add_tech_bonus = {
+ bonus = 0.5
+uses = 1
+				technology = early_destroyer
+				technology = basic_destroyer
+				technology = improved_destroyer
+				technology = advanced_destroyer
+}
+
+add_equipment_to_stockpile = {
+    type = destroyer
+    amount = 10
+}
+ }
+
+ }
+ 
+#Focus for Cruisers
+focus = {
+id = Generic_cruisers
+icon = GFX_goal_generic_navy_cruiser
+x = 33
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Generic_navy } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+add_tech_bonus = {
+ bonus = 0.5
+uses = 1
+				technology = improved_light_cruiser
+				technology = advanced_light_cruiser
+				technology = improved_heavy_cruiser
+				technology = advanced_heavy_cruiser
+}
+
+add_equipment_to_stockpile = {
+    type = light_cruiser
+    amount = 5
+}
+ }
+
+ }
+ 
+#Focus for Convoy Systems
+focus = {
+id = Generic_convoysystems
+icon = GFX_goal_generic_navy_doctrines_tactics
+x = 32
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Generic_destroyers
+				 focus = Generic_cruisers } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+add_tech_bonus = {
+ bonus = 0.5
+uses = 1
+category = naval_doctrine
+}
+ }
+
+ }
+ 
+#Focus for Battleship
+focus = {
+id = Generic_battleship
+icon = GFX_goal_generic_navy_battleship
+x = 32
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Generic_convoysystems } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+add_tech_bonus = {
+ bonus = 0.5
+uses = 1
+technology = early_battleship 
+}
+ }
+
+ }
+ 
+#Focus for Submarines
+focus = {
+id = Generic_submarines
+icon = GFX_goal_generic_navy_submarine
+x = 31
+y = 6
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Generic_battleship } 
+mutually_exclusive = { focus = Generic_carriers } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = {
+add_tech_bonus = {
+ bonus = 0.5
+uses = 1
+technology = early_submarine
+}
+ }
+
+ }
+ 
+#Focus for Aircraft Carriers
+focus = {
+id = Generic_carriers
+icon = GFX_goal_generic_navy_carrier
+x = 33
+y = 6
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Generic_battleship } 
+mutually_exclusive = { focus = Generic_submarines } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = {
+add_tech_bonus = {
+ bonus = 0.5
+uses = 1
+technology = early_carrier
+}
+ }
+
+ }
+ 
+#Focus for Attack Groups
+focus = {
+id = Generic_attackgroups
+icon = GFX_goal_generic_navy_doctrines_tactics
+x = 32
+y = 7
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Generic_carriers
+				 focus = Generic_submarines } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+navy_experience = 10
+add_tech_bonus = {
+ bonus = 0.5
+uses = 2
+category = naval_doctrine
+}
+ }
+
+ }
+
+#End of focuses 
+ }

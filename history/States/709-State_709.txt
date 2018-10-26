@@ -1,0 +1,14 @@
+state={
+	id=709
+	name="STATE_709"
+	provinces={
+		4250 5480 5481 5482 6844 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = VAL
+		buildings = {	}
+		add_core_of = VAL
+	}
+}

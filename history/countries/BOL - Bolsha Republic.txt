@@ -1,0 +1,54 @@
+﻿capital = 188
+
+oob = "BOL_1924"
+
+set_research_slots = 3
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+}
+
+set_convoys = 10
+
+set_politics = {
+
+	parties = {
+	
+		functionalist = { 
+			popularity = 10
+		}
+		
+		traditionalist = { 
+			popularity = 80
+		}
+		
+		liberal_democrat = {
+			popularity = 0
+		}		
+		
+		radical_populist = {
+			popularity = 10
+		}		
+		
+		collectivist = {
+			popularity = 0
+		}
+	}
+	
+	ruling_party = traditionalist
+	last_election = "1933.1.24"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Zynovij Vyacheslavovych"
+	desc = "POLITICS_ZYNOVIJ_VYACHESLAVOVYCH_DESC"
+	picture = "Portrait_Bolsha_Republic_Zynovij_Vyacheslavovych.dds"
+	expire = "1965.1.1"
+	ideology = traditionalist_ideology
+	traits = {
+		
+	}
+}

@@ -1,0 +1,14 @@
+state={
+	id=19
+	name="STATE_19"
+	provinces={
+		1591 1924 1925 3079 3230 3677 3727 4170 4171 4172 4173 4174 4175 4176 4310 4774 4821 5555 6130 6159 8090 8573 9061 9482 10279 10280 10283 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = SEN
+		buildings = {	}
+		add_core_of = SEN
+	}
+}

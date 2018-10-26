@@ -1,0 +1,14 @@
+state={
+	id=729
+	name="STATE_729"
+	provinces={
+		4619
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = GAL
+		buildings = {	}
+		add_core_of = NEG
+	}
+}

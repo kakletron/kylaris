@@ -1,0 +1,14 @@
+state={
+	id=618
+	name="STATE_618"
+	provinces={
+		3142 3653 4445 4615 4623 4624 4625 4626 6237 6238 6239 6240 9406 9425 10015 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = NEG
+		buildings = {		}
+		add_core_of = NEG
+	}
+}

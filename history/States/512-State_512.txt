@@ -1,0 +1,14 @@
+state={
+	id=512
+	name="STATE_512"
+	provinces={
+		492 493 494 1275 4319 4320 8321 4193 10192 8552 3685 9454 469 1276 6031 3347 4603 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = ETR
+		buildings = {	}
+	}
+}
+ 

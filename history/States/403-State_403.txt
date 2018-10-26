@@ -1,0 +1,20 @@
+
+state={
+	id=403
+	name="STATE_403"
+
+	history={
+		owner = AMA
+		buildings = {
+
+		}
+		add_core_of = AMA
+
+	}
+
+	provinces={
+		3852 4863 4864 5432 7277 7880 8148 8257 8366 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

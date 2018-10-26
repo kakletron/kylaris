@@ -1,0 +1,20 @@
+
+state={
+	id=620
+	name="STATE_620"
+
+	history={
+		owner = NEG
+		buildings = {
+
+		}
+		add_core_of = NEG
+
+	}
+
+	provinces={
+		973 974 975 976 977 978 979 980 981 983 2209 2210 2211 2214 2223 3143 4616 4617 7510 7879 8922 9970 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

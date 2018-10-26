@@ -1,0 +1,14 @@
+state={
+	id=287
+	name="STATE_287"
+	provinces={
+		8286 8096 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = MOR
+		buildings = {	}
+		add_core_of = MOR
+	}
+}

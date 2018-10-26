@@ -1,0 +1,20 @@
+
+state={
+	id=79
+	name="STATE_79"
+
+	history={
+		owner = WER
+		buildings = {
+
+		}
+		add_core_of = WER
+
+	}
+
+	provinces={
+		1226 1227 1228 1229 3409 3423 3495 3496 3497 6223 7021 8281 8408 8409 10131 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

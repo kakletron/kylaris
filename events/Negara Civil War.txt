@@ -1,0 +1,300 @@
+###########################
+# Negara Civil War Events
+###########################
+
+add_namespace = negaracivilwar
+
+# Negaran Civil War
+country_event = {
+	id = negaracivilwar.1
+	title = negaracivilwar.1.t
+	desc = negaracivilwar.1.d
+	picture = GFX_report_event_chinese_soldiers_02
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = negaracivilwar.1.a
+        add_political_power = 10
+	}
+}
+
+# Probing the Enemy
+country_event = {
+	id = negaracivilwar.2
+	title = negaracivilwar.2.t
+	desc = negaracivilwar.2.d
+	picture = GFX_report_event_chinese_soldiers_02
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = negaracivilwar.2.a
+		start_border_war = {
+    change_state_after_war = no
+    attacker = {
+        state = 621
+        num_provinces = 6
+        on_win = negaracivilwar.7
+        on_lose = negaracivilwar.8
+        on_cancel = negaracivilwar.9
+    }
+				
+    defender = {
+        state = 583
+        num_provinces = 7
+        on_win = bersericivilwar.4
+        on_lose = bersericivilwar.5
+        on_cancel = bersericivilwar.6
+    }
+}
+	}
+}
+
+# Exploit the Breach
+country_event = {
+	id = negaracivilwar.3
+	title = negaracivilwar.3.t
+	desc = negaracivilwar.3.d
+	picture = GFX_report_event_chinese_soldiers_02
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = negaracivilwar.3.a
+		start_border_war = {
+    change_state_after_war = no
+    attacker = {
+        state = 602
+        num_provinces = 12
+        on_win = negaracivilwar.10
+        on_lose = negaracivilwar.11
+        on_cancel = negaracivilwar.12
+    }
+				
+    defender = {
+        state = 591
+        num_provinces = 13
+        on_win = bersericivilwar.7
+        on_lose = bersericivilwar.8
+        on_cancel = bersericivilwar.9
+    }
+}
+	}
+}
+
+# New Strategy
+country_event = {
+	id = negaracivilwar.4
+	title = negaracivilwar.4.t
+	desc = negaracivilwar.4.d
+	picture = GFX_report_event_chinese_soldiers_02
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = negaracivilwar.4.a
+		BER = {
+		country_event = {
+			id = bersericivilwar.1
+			days = 1
+		}
+		}
+	}
+	
+	option = {
+		name = negaracivilwar.4.b
+        add_political_power = 10
+	}
+}
+
+# Take Kelang
+country_event = {
+	id = negaracivilwar.5
+	title = negaracivilwar.5.t
+	desc = negaracivilwar.5.d
+	picture = GFX_report_event_chinese_soldiers_02
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = negaracivilwar.5.a
+		BER = {
+		country_event = {
+			id = bersericivilwar.2
+			days = 1
+		}
+		}
+	}
+	
+	option = {
+		name = negaracivilwar.5.b
+		declare_war_on = {
+			target = BER
+			type = annex_everything
+		}
+	}
+}
+
+# Kelang Conference
+country_event = {
+	id = negaracivilwar.6
+	title = negaracivilwar.6.t
+	desc = negaracivilwar.6.d
+	picture = GFX_report_event_chinese_soldiers_02
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = negaracivilwar.6.a
+        add_political_power = -50
+		BER = {
+		country_event = {
+			id = bersericivilwar.3
+			days = 1
+		}
+		}
+	}
+}
+
+# Probing the Enemy Win
+country_event = {
+	id = negaracivilwar.7
+	title = negaracivilwar.7.t
+	desc = negaracivilwar.7.d
+	picture = GFX_report_event_chinese_soldiers_02
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = negaracivilwar.6.a
+        add_political_power = 50
+		set_country_flag = breach
+	}
+}
+
+# Probing the Enemy Lose
+country_event = {
+	id = negaracivilwar.8
+	title = negaracivilwar.8.t
+	desc = negaracivilwar.8.d
+	picture = GFX_report_event_chinese_soldiers_02
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = negaracivilwar.8.a
+        add_political_power = -50
+		set_country_flag = no_breach
+	}
+}
+
+# Probing the Enemy Draw
+country_event = {
+	id = negaracivilwar.9
+	title = negaracivilwar.9.t
+	desc = negaracivilwar.9.d
+	picture = GFX_report_event_chinese_soldiers_02
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = negaracivilwar.9.a
+        add_political_power = -50
+		set_country_flag = breach
+		set_country_flag = no_breach
+	}
+}
+
+# Exploit the Breach Win
+country_event = {
+	id = negaracivilwar.10
+	title = negaracivilwar.10.t
+	desc = negaracivilwar.10.d
+	picture = GFX_report_event_chinese_soldiers_02
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = negaracivilwar.10.a
+        add_political_power = 50
+	}
+}
+
+# Exploit the Breach Lose
+country_event = {
+	id = negaracivilwar.11
+	title = negaracivilwar.11.t
+	desc = negaracivilwar.11.d
+	picture = GFX_report_event_chinese_soldiers_02
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = negaracivilwar.11.a
+        add_political_power = -50
+	}
+}
+
+# Exploit the Breach Draw
+country_event = {
+	id = negaracivilwar.12
+	title = negaracivilwar.12.t
+	desc = negaracivilwar.12.d
+	picture = GFX_report_event_chinese_soldiers_02
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = negaracivilwar.12.a
+        add_political_power = -50
+	}
+}

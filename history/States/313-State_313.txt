@@ -1,0 +1,20 @@
+
+state={
+	id=313
+	name="STATE_313"
+
+	history={
+		owner = RHA
+		buildings = {
+
+		}
+		add_core_of = RHA
+
+	}
+
+	provinces={
+		1485 3066 3067 3068 3069 5102 5103 6613 6905 6906 6907 6908 7030 7031 8543 9080 9292 9862 10060 10061 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

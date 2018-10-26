@@ -1,0 +1,20 @@
+
+state={
+	id=219
+	name="STATE_219"
+
+	history={
+		owner = DUQ
+		buildings = {
+
+		}
+		add_core_of = DUQ
+
+	}
+
+	provinces={
+		227 228 771 774 1149 1150 2229 5421 5422 8322 8337 8338 8757 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

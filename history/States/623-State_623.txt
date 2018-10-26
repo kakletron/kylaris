@@ -1,0 +1,20 @@
+
+state={
+	id=623
+	name="STATE_623"
+
+	history={
+		owner = SON
+		buildings = {
+
+		}
+		add_core_of = SON
+
+	}
+
+	provinces={
+		595 599 1322 2016 2017 2018 2019 2776 2856 2857 4072 5301 5302 5324 5759 5760 5936 5937 5938 5939 5940 5941 5942 6060 6061 6997 7216 7426 7727 8544 9930 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

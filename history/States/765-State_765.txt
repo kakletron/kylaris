@@ -1,0 +1,14 @@
+state={
+	id=765
+	name="STATE_765"
+	provinces={
+		824 1862 1865 1866 1867 3599 3914 3915 7382 7383 7589 9301 9478 9571 9779 1858 1859 1860 1863 3829 7640 7641 7848 7997 8617 10233 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = SON
+		buildings = {	}
+		add_core_of = SON
+	}
+}

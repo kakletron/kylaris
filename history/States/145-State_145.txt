@@ -1,0 +1,20 @@
+
+state={
+	id=145
+	name="STATE_145"
+
+	history={
+		owner = VRE
+		buildings = {
+
+		}
+		add_core_of = VRE
+
+	}
+
+	provinces={
+		606 1280 1281 1283 4638 6523 6524 6525 7291 7292 7688 7689 7782 7783 7801 8912 8915 9489 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

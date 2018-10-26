@@ -1,0 +1,303 @@
+ideologies = {
+
+
+
+	functionalist = {
+		
+		types = {
+		
+			duclerquist = {	#gaullica
+			}
+			
+			functionalist_ideology = { #og functionalismo
+			}
+			
+			collaborationist = { #collaborationist govts
+			}
+			
+			pan-marolevist = {
+			}
+			
+			pan-nationalist = {
+			}
+			
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_FUNCTIONALIST_1"
+			"FACTION_NAME_FUNCTIONALIST_2"
+			"FACTION_NAME_FUNCTIONALIST_3"
+			"FACTION_NAME_FUNCTIONALIST_4"
+			"FACTION_NAME_FUNCTIONALIST_5"
+			"FACTION_NAME_FUNCTIONALIST_6"
+		}
+		
+		color = { 50 50 50 }
+		
+		war_impact_on_world_tension = 3
+		faction_impact_on_world_tension = 3
+		
+		rules = {
+			can_force_government = no
+			can_send_volunteers = yes
+			can_puppet = yes
+		}
+		
+		modifiers = {
+			join_faction_tension = 0.05
+			lend_lease_tension = 0.05
+			send_volunteers_tension = 0.05
+			guarantee_tension = 0.05
+		}
+		
+	}
+	
+	
+	
+	traditionalist = {
+		
+		types = {
+		
+			pope = { #papa
+			}
+			
+			traditionalist_ideology = { #og
+			}
+			
+			salamist = { #islamist
+			}
+			
+			sotirian_fundamentalist = {
+			}
+			
+			coian_constitutionalist = {
+			}
+			
+			euclean_constitutionalist = { #semi-const, prussian
+			}
+			
+			absolutist = {
+			}
+			
+			tribalist = {
+			}
+			
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_TRADITIONALIST_1"
+			"FACTION_NAME_TRADITIONALIST_2"
+			"FACTION_NAME_TRADITIONALIST_3"
+			"FACTION_NAME_TRADITIONALIST_4"
+			"FACTION_NAME_TRADITIONALIST_5"
+			"FACTION_NAME_TRADITIONALIST_6"
+		}
+		
+		color = { 70 172 219 }
+		
+		war_impact_on_world_tension = 2
+		faction_impact_on_world_tension = 2
+		
+		rules = {
+			can_guarantee_other_ideologies = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = no
+		}
+		
+		modifiers = {
+			join_faction_tension = 0.45
+			lend_lease_tension = 0.40
+			send_volunteers_tension = 0.40
+			guarantee_tension = 0.40
+		}
+		
+	}
+	
+	
+	
+	liberal_democrat = {
+		
+		types = {
+			
+			liberal_democrat_ideology = {
+			}
+			
+			asterian_liberal = {
+			}
+			
+			asterian_conservative = {
+			}
+			
+			conservative = {
+			}
+			
+			honfucianist = {
+			}
+			
+			zarathustran_conservative = {
+			}
+			
+			libertarian = {
+			}
+			
+			rosaiteirist = {
+			}
+			
+			centrist = {
+			}
+			
+			third_alternative = {
+			}
+			
+			moderate = {
+			}
+			
+			political_catholic = {
+			}
+			
+			agrarian = {
+			}
+			
+			social_liberal = {
+			}
+			
+			social_democrat = {
+			}
+			
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_LIBERAL_DEMOCRAT_1"
+			"FACTION_NAME_LIBERAL_DEMOCRAT_2"
+			"FACTION_NAME_LIBERAL_DEMOCRAT_3"
+			"FACTION_NAME_LIBERAL_DEMOCRAT_4"
+			"FACTION_NAME_LIBERAL_DEMOCRAT_5"
+			"FACTION_NAME_LIBERAL_DEMOCRAT_6"
+		}
+		
+		color = { 195 206 72 }
+		
+		war_impact_on_world_tension = 2
+		faction_impact_on_world_tension = 2
+		
+		rules = {
+			can_guarantee_other_ideologies = yes
+			can_force_government = yes
+			can_send_volunteers = no
+			can_puppet = no
+			can_lower_tension = yes
+		}
+		
+		modifiers = {
+			join_faction_tension = 0.45
+			lend_lease_tension = 0.60
+			send_volunteers_tension = 0.75
+			guarantee_tension = 0.60
+		}
+		
+	}
+	
+	
+	
+	radical_populist = {
+		
+		types = {
+		
+			radical_populist_ideology = {
+			}
+			
+			democratic_socialist = {
+			}
+		
+			syndicalist = {
+			}
+			
+			mutualist = {
+			}
+			
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_RADICAL_POPULIST_1"
+			"FACTION_NAME_RADICAL_POPULIST_2"
+			"FACTION_NAME_RADICAL_POPULIST_3"
+			"FACTION_NAME_RADICAL_POPULIST_4"
+			"FACTION_NAME_RADICAL_POPULIST_5"
+			"FACTION_NAME_RADICAL_POPULIST_6"
+		}
+		
+		color = { 135 37 150 }
+		
+		war_impact_on_world_tension = 2
+		faction_impact_on_world_tension = 2
+		
+		rules = {
+			can_guarantee_other_ideologies = yes
+			can_force_government = yes
+			can_send_volunteers = no
+			can_puppet = no
+			can_lower_tension = yes
+		}
+		
+		modifiers = {
+			join_faction_tension = 0.45
+			lend_lease_tension = 0.60
+			send_volunteers_tension = 0.75
+			guarantee_tension = 0.20
+		}
+		
+	}
+	
+	
+	collectivist = {
+		
+		types = {
+		
+			collectivist_ideology = {
+			}
+		
+			mohrist = {
+			}
+			
+			libertarian = {
+			}
+			
+			anarchist = {
+			}
+			
+			syndicalist = {
+			}
+			
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_COLLECTIVIST_1"
+			"FACTION_NAME_COLLECTIVIST_2"
+			"FACTION_NAME_COLLECTIVIST_3"
+			"FACTION_NAME_COLLECTIVIST_4"
+			"FACTION_NAME_COLLECTIVIST_5"
+			"FACTION_NAME_COLLECTIVIST_6"
+		}
+		
+		color = { 204 58 32 }
+		
+		war_impact_on_world_tension = 3
+		faction_impact_on_world_tension = 3
+		
+		rules = {
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+		}
+		
+		modifiers = {
+			join_faction_tension = 0.05
+			lend_lease_tension = 0.05
+			send_volunteers_tension = 0.05
+			guarantee_tension = 0.05
+		}
+		
+	}
+	
+}

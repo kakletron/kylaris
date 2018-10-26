@@ -1,0 +1,20 @@
+
+state={
+	id=607
+	name="STATE_607"
+
+	history={
+		owner = NEM
+		buildings = {
+
+		}
+		add_core_of = CHE
+
+	}
+
+	provinces={
+		3101 3103 3471 4541 5187 5975 6399 6400 6401 6402 7496 8395 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

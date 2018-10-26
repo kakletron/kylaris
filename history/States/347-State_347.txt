@@ -1,0 +1,23 @@
+
+state={
+	id=347
+	name="STATE_347"
+
+	history={
+		owner = MRI
+		buildings = {
+
+		}
+		add_core_of = MRI
+		victory_points = {
+			8071 50 
+		}
+
+	}
+
+	provinces={
+		709 710 711 2188 2189 3804 3805 3806 4682 4771 4778 6055 6056 6979 6980 8051 8052 8071 8407 8854 9498 10022 
+	}
+	manpower=3780000
+	buildings_max_level_factor=1.000
+}

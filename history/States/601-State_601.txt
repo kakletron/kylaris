@@ -1,0 +1,20 @@
+
+state={
+	id=601
+	name="STATE_601"
+
+	history={
+		owner = STA
+		buildings = {
+
+		}
+		add_core_of = STA
+
+	}
+
+	provinces={
+		470 471 1161 1640 1641 2020 2021 2447 2448 5856 5857 6094 6393 6848 7303 9975 10074 10209 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,208 @@
+﻿capital = 16
+
+oob = "GLT_1924"
+
+set_research_slots = 3
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+}
+
+set_convoys = 10
+
+set_politics = {
+
+	parties = {
+	
+		functionalist = { 
+			popularity = 12
+		}
+		
+		traditionalist = { 
+			popularity = 28
+		}
+		
+		liberal_democrat = {
+			popularity = 30
+		}		
+		
+		radical_populist = {
+			popularity = 15
+		}		
+		
+		collectivist = {
+			popularity = 8
+		}
+	}
+	
+	ruling_party = liberal_democrat
+	last_election = "1933.1.24"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+create_country_leader = {
+	name = "James Connolly"
+	desc = "POLITICS_EOIN_ODUFFY_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
+	expire = "1965.1.1"
+	ideology = functionalist_ideology
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Molly Reynolds"
+	desc = "POLITICS_JAMES_LARKIN_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+	expire = "1965.1.1"
+	ideology = mohrist
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Willian C McKenzie"
+	desc = "POLITICS_JAMES_LARKIN_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
+	expire = "1965.1.1"
+	ideology = moderate
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Cian Ó Corráin"
+	desc = "POLITICS_CIAN_Ó_CORRÁIN_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
+	expire = "1965.1.1"
+	ideology = social_anarchist
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Brigid Fallon"
+	desc = "POLITICS_BRIDGID_FALLON_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
+	expire = "1965.1.1"
+	ideology = democratic_socialist
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Lorcan McMillan"
+	desc = "POLITICS_LORCAN_MCMILLAN_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
+	expire = "1965.1.1"
+	ideology = social_democrat
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Saorla Nic Chuilinn"
+	desc = "POLITICS_SAORLA_NIC_CHUILINN_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
+	expire = "1965.1.1"
+	ideology = traditionalist_ideology
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Rían Ó Cadhla"
+	desc = "POLITICS_RÍAN_Ó_CADHLA_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
+	expire = "1965.1.1"
+	ideology = sotirian_fundamentalist
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Dermot McShane"
+	desc = "POLITICS_DERMOT_MCSHANE_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
+	expire = "1965.1.1"
+	ideology = pan-nationalist
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Éamon Ua Buachalla"
+	desc = "POLITICS_ÉAMON_UA_BUACHALLA_DESC"
+	picture = "Portrait_Glytter_Eamon_Ua_Buachalla.dds"
+	expire = "1965.1.1"
+	ideology = social_liberal
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Mary IV"
+	desc = "POLITICS_MARY_IV_DESC"
+	picture = "Portrait_Glytter_Mary_IV.dds"
+	expire = "1965.1.1"
+	ideology = euclean_constitutionalist
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Mary IV"
+	desc = "POLITICS_MARY_IV_DESC"
+	picture = "Portrait_Glytter_Mary_IV.dds"
+	expire = "1965.1.1"
+	ideology = functionalist_ideology
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Mary IV"
+	desc = "POLITICS_MARY_IV_DESC"
+	picture = "Portrait_Glytter_Mary_IV.dds"
+	expire = "1965.1.1"
+	ideology = liberal_democrat_ideology
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Mary IV"
+	desc = "POLITICS_MARY_IV_DESC"
+	picture = "Portrait_Glytter_Mary_IV.dds"
+	expire = "1965.1.1"
+	ideology = radical_populist_ideology
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Mary IV"
+	desc = "POLITICS_MARY_IV_DESC"
+	picture = "Portrait_Glytter_Mary_IV.dds"
+	expire = "1965.1.1"
+	ideology = collectivist_ideology
+	traits = {
+		#
+	}
+}

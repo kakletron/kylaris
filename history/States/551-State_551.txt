@@ -1,0 +1,20 @@
+
+state={
+	id=551
+	name="STATE_551"
+
+	history={
+		owner = SAR
+		buildings = {
+
+		}
+		add_core_of = SAR
+
+	}
+
+	provinces={
+		2022 2025 2689 2690 2691 2692 4652 5121 5122 5123 5124 7811 8178 8784 10005 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

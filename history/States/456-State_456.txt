@@ -1,0 +1,19 @@
+
+state={
+	id=456
+	name="STATE_456"
+
+	history={
+		owner = ETR
+		buildings = {
+
+		}
+
+	}
+
+	provinces={
+		1960 1961 1962 5537 6276 6794 6795 7050 8207 9528 9920 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

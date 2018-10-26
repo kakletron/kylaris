@@ -1,0 +1,14 @@
+state={
+	id=517
+	name="STATE_517"
+	provinces={
+		7087 7417 7490 9719 10319 10321 10322 10323 10325 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = CEL
+		buildings = {	}
+		add_core_of = CEL
+	}
+}

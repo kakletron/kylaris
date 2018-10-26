@@ -1,0 +1,15 @@
+state={
+	id=322
+	name="STATE_322"
+	provinces={
+		3879 4838 7565 10028 1709 7566 10237 7564 9785 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = ETR
+		buildings = {	}
+		add_core_of = ETR
+		add_core_of = FLO
+	}
+}

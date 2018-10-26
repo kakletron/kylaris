@@ -1,0 +1,14 @@
+state={
+	id=435
+	name="STATE_435"
+	provinces={
+		9309 617 616 618 5460 5501 5502 5503 5504 5505 5506 5507 6611 6612 6669 6974 6975 7202 7203 7204 7205 7544 7545 7546 7547 8711 8833 9307 9308 9746 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = ESV
+		buildings = {	}
+		add_core_of = ESV
+	}
+}

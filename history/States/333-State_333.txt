@@ -1,0 +1,14 @@
+state={
+	id=333
+	name="STATE_333"
+	provinces={
+		7398 7976 8804 8953 10300 8311 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = SAT
+		buildings = {	}
+		add_core_of = SAT
+	}
+}

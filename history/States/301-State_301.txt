@@ -1,0 +1,14 @@
+state={
+	id=301
+	name="STATE_301"
+	provinces={
+		1101 1102 1669 1671 1672 1674 4456 4457 4458 5436 5437 5438 7882 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = ROE
+		buildings = {	}
+		add_core_of = ROE
+	}
+}

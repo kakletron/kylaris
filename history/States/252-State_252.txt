@@ -1,0 +1,20 @@
+
+state={
+	id=252
+	name="STATE_252"
+
+	history={
+		owner = MRI
+		buildings = {
+
+		}
+		add_core_of = MRI
+
+	}
+
+	provinces={
+		95 96 97 2049 8740 
+	}
+	manpower=320000
+	buildings_max_level_factor=1.000
+}

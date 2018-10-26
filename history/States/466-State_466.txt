@@ -1,0 +1,19 @@
+
+state={
+	id=466
+	name="STATE_466"
+
+	history={
+		owner = WER
+		buildings = {
+
+		}
+
+	}
+
+	provinces={
+		836 837 838 839 840 841 842 846 848 7846 8259 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

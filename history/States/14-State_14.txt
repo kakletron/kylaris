@@ -1,0 +1,14 @@
+state={
+	id=14
+	name="STATE_14"
+	provinces={
+		931 1199 3547 5367 6053 6791 7540 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = SEN
+		buildings = {	}
+		add_core_of = SEN
+	}
+}

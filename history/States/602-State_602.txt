@@ -1,0 +1,23 @@
+
+state={
+	id=602
+	name="STATE_602"
+
+	history={
+		owner = NEG
+		buildings = {
+
+		}
+		add_core_of = NEG
+		victory_points = {
+			3448 25 
+		}
+
+	}
+
+	provinces={
+		3139 3448 3740 5072 5073 5074 5075 5282 5467 7136 7500 9107 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

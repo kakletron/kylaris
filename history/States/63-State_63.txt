@@ -1,0 +1,14 @@
+state={
+	id=63
+	name="STATE_63"
+	provinces={
+		7174 7175 8130 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = LUZ
+		buildings = {	}
+		add_core_of = LUZ
+	}
+}

@@ -1,0 +1,20 @@
+
+state={
+	id=578
+	name="STATE_578"
+
+	history={
+		owner = KHA
+		buildings = {
+
+		}
+		add_core_of = KHA
+
+	}
+
+	provinces={
+		780 1081 1478 1820 2261 2669 2916 2965 4350 6135 6136 6480 6936 7073 7385 7822 8984 10199 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

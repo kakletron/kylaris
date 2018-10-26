@@ -1,0 +1,14 @@
+state={
+	id=279
+	name="STATE_279"
+	provinces={
+		6445 9212 6443 3712 361 363 7899 2479 362 2477 2478 3713 3714 6444 8884 9183 9876 9877 9878 7897 343 7898 9900 9038 6752 6190 6189 342 9037 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = HUS
+		buildings = {	}
+		add_core_of = HUS
+	}
+}

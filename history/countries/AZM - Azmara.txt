@@ -1,0 +1,54 @@
+﻿capital = 81
+
+oob = "AZM_1924"
+
+set_research_slots = 3
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+}
+
+set_convoys = 10
+
+set_politics = {
+
+	parties = {
+	
+		functionalist = { 
+			popularity = 0
+		}
+		
+		traditionalist = { 
+			popularity = 20
+		}
+		
+		liberal_democrat = {
+			popularity = 40
+		}		
+		
+		radical_populist = {
+			popularity = 40
+		}		
+		
+		collectivist = {
+			popularity = 0
+		}
+	}
+	
+	ruling_party = liberal_democrat
+	last_election = "1933.1.24"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+create_country_leader = {
+	name = "Þurisas Jorśsun"
+	desc = "POLITICS_THURISAS_JORSSUN_DESC"
+	picture = "Portrait_Azmara_Thurisas_Jorssun.dds"
+	expire = "1965.1.1"
+	ideology = liberal_democrat_ideology
+	traits = {
+		
+	}
+}

@@ -1,0 +1,14 @@
+state={
+	id=464
+	name="STATE_464"
+	provinces={
+		5434 8060 4281 10075 2350 2351 2352 2353 2354 3023 4372 4373 4376 5668 5670 5671 5672 8219 8614 8620 7517 5669 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = NIM
+		buildings = {	}
+		add_core_of = NIM
+	}
+}

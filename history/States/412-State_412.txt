@@ -1,0 +1,14 @@
+state={
+	id=412
+	name="STATE_412"
+	provinces={
+		6691 6863 6926 6927 7529 8487 8604 10307 10309 8428 10308 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = GAL
+		buildings = {	}
+		add_core_of = SAN
+	}
+}

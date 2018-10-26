@@ -1,0 +1,20 @@
+
+state={
+	id=656
+	name="STATE_656"
+
+	history={
+		owner = VAL
+		buildings = {
+
+		}
+		add_core_of = VAL
+
+	}
+
+	provinces={
+		1431 1433 1677 1678 1679 1680 1681 2314 2315 4062 4063 5689 5690 5750 5751 6929 7266 7603 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,20 @@
+
+state={
+	id=469
+	name="STATE_469"
+
+	history={
+		owner = SAN
+		buildings = {
+
+		}
+		add_core_of = SAN
+
+	}
+
+	provinces={
+		925 3404 3405 3406 5308 7237 7366 7876 8900 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

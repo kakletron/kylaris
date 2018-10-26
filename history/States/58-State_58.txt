@@ -1,0 +1,16 @@
+
+state={
+	id=58
+	name="STATE_58"
+	history={
+		owner = WER
+		buildings = {	}
+		add_core_of = WER
+	}
+
+	provinces={
+		1802 3491 3493 5579 6885 6887 8525 9215 9813 2312 9213 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

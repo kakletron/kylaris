@@ -1,0 +1,23 @@
+
+state={
+	id=332
+	name="STATE_332"
+
+	history={
+		owner = ETR
+		buildings = {
+
+		}
+		add_core_of = ETR
+		victory_points = {
+			7116 50 
+		}
+
+	}
+
+	provinces={
+		1700 1701 1702 1703 1704 1705 1707 1708 1710 1715 1716 2464 2465 2466 2467 2468 3983 5667 7116 7178 9400 9401 9898 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

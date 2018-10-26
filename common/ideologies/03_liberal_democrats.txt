@@ -1,0 +1,52 @@
+ideologies = {
+
+	liberal_democrat = {
+		
+		types = {
+			
+			liberal_democrat_ideology = {
+			}
+			
+			asterian_liberal = {
+			}
+			
+			asterian_conservative = {
+			}
+			
+			conservative = {
+			}
+			
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_LIBERAL_DEMOCRAT_1"
+			"FACTION_NAME_LIBERAL_DEMOCRAT_2"
+			"FACTION_NAME_LIBERAL_DEMOCRAT_3"
+			"FACTION_NAME_LIBERAL_DEMOCRAT_4"
+			"FACTION_NAME_LIBERAL_DEMOCRAT_5"
+			"FACTION_NAME_LIBERAL_DEMOCRAT_6"
+		}
+		
+		color = { 195 206 72 }
+		
+		war_impact_on_world_tension = 2
+		faction_impact_on_world_tension = 2
+		
+		rules = {
+			can_guarantee_other_ideologies = yes
+			can_force_government = yes
+			can_send_volunteers = no
+			can_puppet = no
+			can_lower_tension = yes
+		}
+		
+		modifiers = {
+			join_faction_tension = 0.45
+			lend_lease_tension = 0.60
+			send_volunteers_tension = 0.75
+			guarantee_tension = 0.60
+		}
+		
+	}
+
+}

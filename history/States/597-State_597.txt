@@ -1,0 +1,20 @@
+
+state={
+	id=597
+	name="STATE_597"
+
+	history={
+		owner = MSE
+		buildings = {
+
+		}
+		add_core_of = MSE
+
+	}
+
+	provinces={
+		3822 3823 5022 5025 5096 6831 6832 6833 6834 8323 8500 8501 8517 9282 9885 10029 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

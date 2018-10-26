@@ -1,0 +1,21 @@
+
+state={
+	id=570
+	name="STATE_570"
+
+	history={
+		owner = BER
+		buildings = {
+
+		}
+		add_core_of = BER
+		add_core_of = NEG
+
+	}
+
+	provinces={
+		243 244 3098 3099 3100 6151 6342 6344 6345 8382 8507 8508 8524 9330 9465 9906 9907 9999 10225 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

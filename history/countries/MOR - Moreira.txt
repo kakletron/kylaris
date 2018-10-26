@@ -1,0 +1,54 @@
+﻿capital = 234
+
+oob = "MOR_1924"
+
+set_research_slots = 3
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+}
+
+set_convoys = 10
+
+set_politics = {
+
+	parties = {
+	
+		functionalist = { 
+			popularity = 60
+		}
+		
+		traditionalist = { 
+			popularity = 30
+		}
+		
+		liberal_democrat = {
+			popularity = 0
+		}		
+		
+		radical_populist = {
+			popularity = 10
+		}		
+		
+		collectivist = {
+			popularity = 0
+		}
+	}
+	
+	ruling_party = functionalist
+	last_election = "1933.1.24"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Augusto Octavio Assunção"
+	desc = "POLITICS_AUGUSTO_OCTAVIO_ASSUNCAO_DESC"
+	picture = "Portrait_Moreira_Augusto_Octavio_Assuncao.dds"
+	expire = "1965.1.1"
+	ideology = functionalist_ideology
+	traits = {
+		
+	}
+}

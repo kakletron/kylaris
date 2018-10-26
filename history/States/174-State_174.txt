@@ -1,0 +1,14 @@
+state={
+	id=174
+	name="STATE_174"
+	provinces={
+		1382 1383 1386 6166 6167 6168 6778 8418 8655 9609 6165 6137 9802 5859 7294 7604 6477 1384 7989 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = BOL
+		buildings = {	}
+		add_core_of = BOL
+	}
+}

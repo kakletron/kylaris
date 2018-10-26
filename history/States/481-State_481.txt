@@ -1,0 +1,17 @@
+state={
+	id=481
+	name="STATE_481"
+	provinces={
+		5010 6115 6116 6117 7613 7636 8168 7614 7866 4690 4691 5469 7635 7931 9265 10242 9085 3383 3384 3385 4688 4689 5414 5415 5470 6118 6119 7399 7400 7401  
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = NIM
+		buildings = {	}
+		add_core_of = NIM
+		victory_points = {
+			9085 50 
+		}
+	}
+}

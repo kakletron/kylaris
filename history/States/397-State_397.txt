@@ -1,0 +1,14 @@
+state={
+	id=397
+	name="STATE_397"
+	provinces={
+		4673 3137 4672 4671 7503 324 325 326 327 328 2460 2461 5636 5793 5794 6969 6970 7137 7504 8214 10038 2459 329 330 331 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = COS
+		buildings = {	}
+		add_core_of = COS
+	}
+}

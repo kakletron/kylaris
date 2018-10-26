@@ -1,0 +1,15 @@
+state={
+	id=274
+	name="STATE_274"
+	provinces={
+		5331 7592 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = FLO
+		buildings = {	}
+		add_core_of = FLO
+		victory_points = { 7592 50 }
+	}
+}

@@ -1,0 +1,20 @@
+
+state={
+	id=423
+	name="STATE_423"
+
+	history={
+		owner = ART
+		buildings = {
+
+		}
+		add_core_of = ART
+
+	}
+
+	provinces={
+		5461 5462 5498 5500 6737 6941 6942 8712 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

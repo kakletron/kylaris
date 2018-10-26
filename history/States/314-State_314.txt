@@ -1,0 +1,13 @@
+state={
+	id=314
+	name="STATE_314"
+	provinces={
+		756 757 758 759 760 761 762 766 6173 6181 7693 8373 9680 9912 8457 765 6262 7318 7571 9302 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = EST
+		buildings = {		}
+	}
+}

@@ -1,0 +1,14 @@
+state={
+	id=772
+	name="STATE_772"
+	provinces={
+		7938 8333 9339 9388 10368 10369 10370 10371 10372 3908 9389 10367 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = NEM
+		buildings = {		}
+		add_core_of = SON
+	}
+}

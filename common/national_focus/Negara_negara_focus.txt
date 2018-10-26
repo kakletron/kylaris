@@ -1,0 +1,1209 @@
+focus_tree = { 
+id = negara_focus
+country = { 
+factor = 0 
+modifier = { 
+add = 10 
+tag = NEG 
+} 
+} 
+#Focus for Industrial Revolution
+focus = { 
+id = Negara_industrialrevolution
+icon = GFX_goal_generic_production2
+x = 10
+y = 1
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Negara_modernisationefforts } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+add_political_power = 50
+ } 
+
+ } 
+
+#Focus for Every Man A Rifle
+focus = { 
+id = Negara_everymanarifle
+icon = GFX_goal_generic_construct_mil_factory
+x = 9
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Negara_industrialrevolution } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+random_owned_controlled_state = {
+add_extra_state_shared_building_slots = 2
+
+add_building_construction = { 
+type = arms_factory
+level = 2
+instant_build = yes }
+}
+ } 
+
+ } 
+
+#Focus for Modernisation Efforts
+focus = {
+id = Negara_modernisationefforts
+icon = GFX_focus_research2
+x = 10
+y = 0
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = {
+add_political_power = 50
+country_event = {
+days = 1 
+id = negaramodernisation.1 
+}
+
+ } 
+ } 
+
+#Focus for Strength of the Gods
+focus = { 
+id = Negara_strengthofthegods
+icon = GFX_focus_wonderweapons
+x = 13
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Negara_universityofkotamerdeka } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+add_tech_bonus = {
+ bonus = 0.5 
+uses = 2 
+category = nuclear
+category = rocketry
+}
+ } 
+
+ } 
+
+#Focus for A Nation United
+focus = { 
+id = Negara_anationunited
+icon = GFX_focus_RAJ_indian_gurkhas
+x = 2
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Negara_kelangconference focus = Negara_takekelang } 
+available = { 
+controls_state = 571
+controls_state = 609
+controls_state = 563
+controls_state = 591
+ }
+completion_reward = { 
+add_stability = 0.05
+
+add_war_support = 0.02
+
+remove_ideas = NEG_civilwar
+ } 
+
+ } 
+
+#Focus for Kelang Conference
+focus = { 
+id = Negara_kelangconference
+icon = GFX_goal_tripartite_pact
+x = 3
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Negara_anewstrategy } 
+completion_reward = { 
+navy_experience = 5
+
+add_manpower = -4000
+
+add_stability = 0.05
+
+country_event = {
+days = 1 
+id = negaracivilwar.6
+}
+ }
+
+ } 
+
+#Focus for A New Strategy
+focus = { 
+id = Negara_anewstrategy
+icon = GFX_goal_generic_more_territorial_claims
+x = 3
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Negara_probingtheenemy } 
+mutually_exclusive = { focus = Negara_exploitthebreach } 
+available = { 
+ has_country_flag = no_breach
+ }
+completion_reward = { 
+add_political_power = -50
+
+country_event = {
+days = 1 
+id = negaracivilwar.4
+}
+clr_country_flag = breach
+clr_country_flag = no_breach
+ } 
+
+ } 
+
+#Focus for Take Kelang!
+focus = { 
+id = Negara_takekelang
+icon = GFX_goal_generic_territory_or_war
+x = 1
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Negara_exploitthebreach } 
+completion_reward = { 
+army_experience= 5
+
+add_manpower = 8000
+
+add_war_support = 0.02
+
+country_event = {
+days = 1 
+id = negaracivilwar.5
+}
+ } 
+
+ } 
+
+#Focus for Exploit the Breach!
+focus = { 
+id = Negara_exploitthebreach
+icon = GFX_goal_generic_major_war
+x = 1
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Negara_probingtheenemy } 
+mutually_exclusive = { focus = Negara_anewstrategy } 
+available = { 
+ has_country_flag = breach
+ }
+completion_reward = { 
+country_event = {
+days = 1 
+id = negaracivilwar.3
+}
+clr_country_flag = breach
+clr_country_flag = no_breach
+ }
+
+ } 
+
+#Focus for Probing the Enemy
+focus = { 
+id = Negara_probingtheenemy
+icon = GFX_goal_generic_position_armies
+x = 2
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Negara_aperfidiousalliance focus = Negara_alonewolf } 
+completion_reward = { 
+add_political_power = 100
+
+country_event = {
+days = 1 
+id = negaracivilwar.2 
+}
+ } 
+
+ } 
+
+#Focus for A Lone Wolf
+focus = { 
+id = Negara_alonewolf
+icon = GFX_goal_generic_wolf_pack
+x = 3
+y = 1
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Negara_negarancivilwar } 
+mutually_exclusive = { focus = Negara_aperfidiousalliance } 
+ai_will_do = {
+  factor = 0
+}
+completion_reward = { 
+add_political_power = 150
+
+remove_from_faction = NEG
+
+create_faction= "South Coian Defence Initiative"
+
+add_to_faction = NEG
+ } 
+
+ } 
+
+#Focus for Negaran Civil War
+focus = { 
+id = Negara_negarancivilwar
+icon = GFX_goal_generic_demand_territory
+x = 2
+y = 0
+cost = 10
+available_if_capitulated = yes 
+completion_reward = { 
+add_political_power = 100
+
+country_event = {
+days = 1 
+id = negaracivilwar.1 
+}
+ }
+
+ } 
+
+#Focus for A Perfidious Alliance
+focus = { 
+id = Negara_aperfidiousalliance
+icon = GFX_goal_tfv_strengthen_commonwealth_ties
+x = 1
+y = 1
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Negara_negarancivilwar } 
+mutually_exclusive = { focus = Negara_alonewolf } 
+completion_reward = { 
+add_political_power = 120
+ }
+
+ } 
+
+#Focus for Construction Crews
+focus = { 
+id = Negara_constructioncrews
+icon = GFX_goal_generic_construct_civ_factory
+x = 11
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Negara_industrialrevolution } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+random_owned_controlled_state = {
+add_extra_state_shared_building_slots = 2
+
+add_building_construction = {
+type = industrial_complex
+level = 2
+instant_build = yes }
+}
+ }
+
+ } 
+
+#Focus for State-Run Armshouses
+focus = { 
+id = Negara_staterunarmshouses
+icon = GFX_goal_generic_construct_mil_factory
+x = 9
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Negara_everymanarifle } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+random_owned_controlled_state = {
+add_extra_state_shared_building_slots = 2
+
+add_building_construction = { 
+type = arms_factory
+level = 2
+instant_build = yes }
+}
+ } 
+
+ } 
+
+#Focus for Backyard Manufactories
+focus = { 
+id = Negara_backyardmanufactories
+icon = GFX_goal_generic_construct_mil_factory
+x = 9
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Negara_staterunarmshouses } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+random_owned_controlled_state = {
+add_extra_state_shared_building_slots = 2
+
+add_building_construction = { 
+type = arms_factory
+level = 2
+instant_build = yes }
+}
+ } 
+
+ } 
+
+#Focus for Rifles Into Plowshares
+focus = { 
+id = Negara_riflesintoplowshares
+icon = GFX_goal_generic_construct_civ_factory
+x = 11
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Negara_constructioncrews } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+random_owned_controlled_state = {
+add_extra_state_shared_building_slots = 2
+
+add_building_construction = { 
+type = industrial_complex
+level = 2
+instant_build = yes }
+}
+ } 
+
+ } 
+
+#Focus for Rural Urbanisation
+focus = { 
+id = Negara_ruralurbanisation
+icon = GFX_goal_generic_construct_civ_factory
+x = 11
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Negara_riflesintoplowshares } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+random_owned_controlled_state = {
+add_extra_state_shared_building_slots = 2
+
+add_building_construction = { 
+type = industrial_complex
+level = 2
+instant_build = yes }
+}
+ } 
+
+ } 
+
+#Focus for New Techniques
+focus = { 
+id = Negara_newtechniques
+icon = GFX_goal_generic_construct_civ_factory
+x = 11
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Negara_ruralurbanisation } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+random_owned_controlled_state = {
+add_extra_state_shared_building_slots = 5
+
+add_building_construction = { 
+type = industrial_complex
+level = 5
+instant_build = yes }
+}
+ } 
+
+ } 
+
+#Focus for Updated Designs
+focus = { 
+id = Negara_updateddesigns
+icon = GFX_goal_generic_construct_mil_factory
+x = 9
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Negara_backyardmanufactories } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+random_owned_controlled_state = {
+add_extra_state_shared_building_slots = 5
+
+add_building_construction = { 
+type = arms_factory
+level = 5
+instant_build = yes }
+}
+ } 
+
+ } 
+
+#Focus for Infrastructure Projects
+focus = { 
+id = Negara_infrastructureprojects
+icon = GFX_goal_generic_construct_civilian
+x = 7
+y = 1
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Negara_modernisationefforts } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+random_owned_controlled_state = {
+add_extra_state_shared_building_slots = 2
+
+add_building_construction = { 
+type = infrastructure
+level = 2
+instant_build = yes }
+}
+ } 
+
+ } 
+
+#Focus for Better Roads
+focus = { 
+id = Negara_betterroads
+icon = GFX_goal_generic_construct_infrastructure
+x = 7
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Negara_infrastructureprojects } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+random_owned_controlled_state = {
+add_extra_state_shared_building_slots = 2
+
+add_building_construction = { 
+type = infrastructure
+level = 2
+instant_build = yes }
+}
+ } 
+
+ } 
+
+#Focus for Better Rails
+focus = { 
+id = Negara_betterrails
+icon = GFX_goal_generic_construct_infrastructure
+x = 7
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Negara_betterroads } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+random_owned_controlled_state = {
+add_extra_state_shared_building_slots = 2
+
+add_building_construction = { 
+type = infrastructure
+level = 2
+instant_build = yes }
+}
+ } 
+
+ } 
+
+#Focus for Comprehensive Network
+focus = { 
+id = Negara_comprehensivenetwork
+icon = GFX_goal_generic_construct_infrastructure
+x = 7
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Negara_betterrails } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+random_owned_controlled_state = {
+add_extra_state_shared_building_slots = 2
+
+add_building_construction = { 
+type = infrastructure
+level = 2
+instant_build = yes }
+}
+ } 
+
+ } 
+
+#Focus for Nationalised Fares
+focus = { 
+id = Negara_nationalisedfares
+icon = GFX_goal_generic_construct_infrastructure
+x = 7
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Negara_comprehensivenetwork } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+random_owned_controlled_state = {
+add_extra_state_shared_building_slots = 2
+
+add_building_construction = { 
+type = infrastructure
+level = 2
+instant_build = yes }
+}
+ } 
+
+ } 
+
+#Focus for Foreign Training
+focus = { 
+id = Negara_foreigntraining
+icon = GFX_goal_generic_scientific_exchange
+x = 13
+y = 1
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Negara_modernisationefforts } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+add_tech_bonus = {
+ bonus = 0.5 
+uses = 2 
+category = industry
+}
+ } 
+
+ } 
+
+#Focus for Modernising Education
+focus = { 
+id = Negara_modernisingeducation
+icon = GFX_focus_research2
+x = 13
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Negara_foreigntraining } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+add_research_slot = 1
+ } 
+
+ } 
+
+#Focus for Military Intelligence
+focus = { 
+id = Negara_militaryintelligence
+icon = GFX_focus_research2
+x = 13
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Negara_modernisingeducation } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+add_tech_bonus = {
+ bonus = 0.5 
+uses = 2 
+category = military_tech
+}
+
+add_manpower = -2000
+ } 
+
+ } 
+
+#Focus for University of Kota Merdeka
+focus = { 
+id = Negara_universityofkotamerdeka
+icon = GFX_focus_research2
+x = 13
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Negara_militaryintelligence } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+add_research_slot = 1
+ } 
+
+ } 
+
+#Focus for Modern Nation
+focus = { 
+id = Negara_modernnation
+icon = GFX_goal_generic_propaganda
+x = 10
+y = 6
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Negara_strengthofthegods } 
+prerequisite = { focus = Negara_nationalisedfares } 
+prerequisite = { focus = Negara_newtechniques } 
+prerequisite = { focus = Negara_updateddesigns } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+add_political_power = 50
+
+add_research_slot = 1
+ } 
+
+ } 
+
+#Focus for Hesian Oil Fields
+focus = { 
+id = Negara_hesianoilfields
+icon = GFX_goal_generic_oil_refinery
+x = 5
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Negara_infrastructureprojects } 
+ai_will_do = { 
+ factor = 1
+ } 
+available = { 
+610 = { is_controlled_by = NEG }
+609 = { is_controlled_by = NEG }
+ } 
+completion_reward = { 
+add_resource= { 
+type = oil 
+amount = 25
+state = 609
+}add_resource= { 
+type = oil 
+amount = 25
+state = 610
+}
+ } 
+
+ } 
+
+#Focus for New Steel Techniques
+focus = { 
+id = Negara_newsteeltechniques
+icon = GFX_goal_generic_construction2
+x = 15
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Negara_foreigntraining } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+add_resource= { 
+type = steel
+amount = 30
+state = 629
+}
+ } 
+
+ } 
+
+#Focus for 1924 Assembly Elections
+focus = { 
+id = Negara_1924assemblyelections
+icon = GFX_focus_rom_parties_end
+x = 24
+y = 1
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Negara_aquestionofdemocracy } 
+ai_will_do = { 
+ factor = 1
+ } 
+available = { 
+has_country_flag = negara_elections
+ } 
+completion_reward = { 
+country_event = {
+days = 1 
+id = negaraelections.2
+}
+ } 
+
+ } 
+
+#Focus for NDC Majority
+focus = { 
+id = Negara_ndcmajority
+icon = GFX_goal_support_democracy
+x = 26
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Negara_1924assemblyelections } 
+mutually_exclusive = { focus = Negara_rgamajority } 
+mutually_exclusive = { focus = Negara_ndcrgacoalition } 
+mutually_exclusive = { focus = Negara_cpnmajority } 
+mutually_exclusive = { focus = Negara_cpnsrcoalition } 
+mutually_exclusive = { focus = Negara_srndccoalition } 
+mutually_exclusive = { focus = Negara_srmajority }
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+add_popularity = { 
+ideology = liberal_democrat
+popularity = 0.5
+}
+set_politics = { ruling_party = liberal_democrat }
+}
+
+ } 
+
+#Focus for SR Majority
+focus = { 
+id = Negara_srmajority
+icon = GFX_focus_prc_agrarian_socialism
+x = 22
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Negara_1924assemblyelections } 
+mutually_exclusive = { focus = Negara_rgamajority } 
+mutually_exclusive = { focus = Negara_ndcrgacoalition } 
+mutually_exclusive = { focus = Negara_cpnmajority } 
+mutually_exclusive = { focus = Negara_cpnsrcoalition } 
+mutually_exclusive = { focus = Negara_srndccoalition } 
+mutually_exclusive = { focus = Negara_ndcmajority }
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+add_popularity = { 
+ideology = radical_populist
+popularity = 0.5
+  }
+ }
+
+ } 
+
+#Focus for SR-NDC Coalition
+focus = { 
+id = Negara_srndccoalition
+icon = GFX_goal_tripartite_pact
+x = 24
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Negara_1924assemblyelections } 
+mutually_exclusive = { focus = Negara_rgamajority } 
+mutually_exclusive = { focus = Negara_ndcrgacoalition } 
+mutually_exclusive = { focus = Negara_cpnmajority } 
+mutually_exclusive = { focus = Negara_cpnsrcoalition } 
+mutually_exclusive = { focus = Negara_srmajority } 
+mutually_exclusive = { focus = Negara_ndcmajority }
+ai_will_do = { 
+ factor = 1
+ }
+completion_reward = {
+add_popularity = { 
+ideology = radical_populist
+popularity = 0.25
+}
+add_popularity = { 
+ideology = liberal_democrat
+popularity = 0.25
+}
+}
+
+ } 
+
+#Focus for CPN-SR Coalition
+focus = { 
+id = Negara_cpnsrcoalition
+icon = GFX_goal_tripartite_pact
+x = 20
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Negara_1924assemblyelections } 
+mutually_exclusive = { focus = Negara_rgamajority } 
+mutually_exclusive = { focus = Negara_ndcrgacoalition } 
+mutually_exclusive = { focus = Negara_cpnmajority } 
+mutually_exclusive = { focus = Negara_srndccoalition } 
+mutually_exclusive = { focus = Negara_srmajority } 
+mutually_exclusive = { focus = Negara_ndcmajority }
+ai_will_do = { 
+ factor = 1
+ }
+completion_reward = {
+add_popularity = { 
+ideology = radical_populist
+popularity = 0.25
+}
+add_popularity = { 
+ideology = collectivist
+popularity = 0.25
+}
+}
+
+ } 
+
+#Focus for CPN Majority
+focus = { 
+id = Negara_cpnmajority
+icon = GFX_goal_support_communism
+x = 18
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Negara_1924assemblyelections } 
+mutually_exclusive = { focus = Negara_rgamajority } 
+mutually_exclusive = { focus = Negara_ndcrgacoalition } 
+mutually_exclusive = { focus = Negara_cpnsrcoalition } 
+mutually_exclusive = { focus = Negara_srndccoalition } 
+mutually_exclusive = { focus = Negara_srmajority } 
+mutually_exclusive = { focus = Negara_ndcmajority }
+ai_will_do = { 
+ factor = 1
+ }
+completion_reward = {
+add_popularity = { 
+ideology = collectivist
+popularity = 0.5
+}
+set_politics = { ruling_party = collectivist }
+}
+
+ }
+
+#Focus for One Country, One Leader
+focus = { 
+id = Negara_onecountryoneleader
+icon = GFX_goal_support_fascism
+x = 35
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Negara_internalpolitiking } 
+mutually_exclusive = { focus = Negara_fillingathrone } 
+mutually_exclusive = { focus = Negara_staythecourse } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = {
+add_popularity = { 
+ideology = functionalist
+popularity = 0.5
+}
+ } 
+
+ } 
+
+#Focus for NDC-RGA Coalition
+focus = { 
+id = Negara_ndcrgacoalition
+icon = GFX_goal_tripartite_pact
+x = 28
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Negara_1924assemblyelections }
+mutually_exclusive = { focus = Negara_rgamajority } 
+mutually_exclusive = { focus = Negara_cpnmajority } 
+mutually_exclusive = { focus = Negara_cpnsrcoalition } 
+mutually_exclusive = { focus = Negara_srndccoalition } 
+mutually_exclusive = { focus = Negara_srmajority } 
+mutually_exclusive = { focus = Negara_ndcmajority }
+ai_will_do = { 
+ factor = 1
+ }
+completion_reward = { 
+add_popularity = { 
+ideology = liberal_democrat
+popularity = 0.25
+}
+add_popularity = { 
+ideology = traditionalist
+popularity = 0.25
+}
+set_politics = { ruling_party = liberal_democrat }
+}
+
+ } 
+
+#Focus for RGA Majority
+focus = { 
+id = Negara_rgamajority
+icon = GFX_focus_rom_royal_dictatorship
+x = 30
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Negara_1924assemblyelections }
+mutually_exclusive = { focus = Negara_ndcrgacoalition } 
+mutually_exclusive = { focus = Negara_cpnmajority } 
+mutually_exclusive = { focus = Negara_cpnsrcoalition } 
+mutually_exclusive = { focus = Negara_srndccoalition } 
+mutually_exclusive = { focus = Negara_srmajority } 
+mutually_exclusive = { focus = Negara_ndcmajority }
+ai_will_do = { 
+ factor = 1
+ }
+completion_reward = { 
+add_popularity = { 
+ideology = traditionalist
+popularity = 0.25
+}
+set_politics = { ruling_party = traditionalist }
+}
+ }
+
+#Focus for A Question of Democracy
+focus = { 
+id = Negara_aquestionofdemocracy
+icon = GFX_focus_generic_treaty
+x = 31
+y = 0
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+available = { 
+date > 1924.7.7
+ } 
+completion_reward = { 
+country_event = {
+days = 1 
+id = negaraelections.1 
+}
+ } 
+
+ } 
+
+#Focus for Internal Politiking
+focus = { 
+id = Negara_internalpolitiking
+icon = GFX_goal_generic_forceful_treaty
+x = 38
+y = 1
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Negara_aquestionofdemocracy } 
+ai_will_do = { 
+ factor = 1
+ } 
+available = { 
+has_country_flag = negara_elections_postponed
+ } 
+
+ } 
+
+#Focus for Stay the Course
+focus = { 
+id = Negara_staythecourse
+icon = GFX_focus_rom_abdicate
+x = 38
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Negara_internalpolitiking } 
+mutually_exclusive = { focus = Negara_fillingathrone } 
+mutually_exclusive = { focus = Negara_onecountryoneleader } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+add_political_power = 50
+ } 
+
+ } 
+
+#Focus for Filling a Throne
+focus = {
+id = Negara_fillingathrone
+icon = GFX_goal_tfv_strengthen_commonwealth_ties
+x = 41
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Negara_internalpolitiking } 
+mutually_exclusive = { focus = Negara_staythecourse } 
+mutually_exclusive = { focus = Negara_onecountryoneleader } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = {
+add_popularity = { 
+ideology = traditionalist
+popularity = 0.5
+}
+ } 
+
+ }
+ 
+#Focus for A Berseri Candidate
+focus = {
+id = Negara_abersericandidate
+icon = GFX_goal_tfv_strengthen_commonwealth_ties
+x = 42
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Negara_fillingathrone } 
+mutually_exclusive = { focus = Negara_ourownking } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = {
+	set_politics = { ruling_party = traditionalist }
+	set_party_name = { 	ideology = traditionalist
+						long_name = "Berseri Dynasty"
+						name = "Berseri Dynasty"
+	}
+	create_country_leader = { name = "Duapuluhenam" desc = "POLITICS_DUAPULUHENAM_DESC" picture = "Portrait_Negara_Duapuluhenam.dds" expire = "1965.1.1" ideology = traditionalist_ideology traits = { } }
+	set_cosmetic_tag = NEG_berseri_imperial
+ } 
+
+ }
+ 
+#Focus for Our Own King
+focus = {
+id = Negara_ourownking
+icon = GFX_goal_tfv_strengthen_commonwealth_ties
+x = 40
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Negara_fillingathrone } 
+mutually_exclusive = { focus = Negara_abersericandidate } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = {
+	set_politics = { ruling_party = traditionalist }
+	set_party_name = { 	ideology = traditionalist
+						long_name = "Yashya Dynasty"
+						name = "Yashya Dynasty"
+	}
+	create_country_leader =  { name = "Setiawan I" desc = "POLITICS_SETIAWAN_DESC" picture = "Portrait_Negara_Setiawan.dds" expire = "1965.1.1" ideology = traditionalist_ideology traits = { } }
+	set_cosmetic_tag = NEG_own_imperial
+ } 
+
+ }
+ 
+#Focus for Acts of Union
+focus = {
+id = Negara_actsofunion
+icon = GFX_goal_tfv_strengthen_commonwealth_ties
+x = 42
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Negara_abersericandidate } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = {
+country_event = {
+days = 1 
+id = actsofunion.1
+}
+GAL = { end_puppet = BER }
+NEG = { create_faction = "Berseri Dynasty" }
+add_to_faction = BER
+ }
+
+ }
+ 
+#Focus for One Dynasty
+focus = {
+id = Negara_onedynasty
+icon = GFX_goal_tfv_strengthen_commonwealth_ties
+x = 42
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Negara_actsofunion } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = {
+country_event = {
+days = 1 
+id = actsofunion.2
+}	
+ }
+
+ }
+  
+#Focus for New Monarchy
+focus = {
+id = Negara_newmonarchy
+icon = GFX_goal_tfv_strengthen_commonwealth_ties
+x = 40
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Negara_ourownking } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = {
+country_event = {
+days = 1 
+id = newmonarchy.1
+}	
+ }
+
+ }
+
+#End of focuses 
+ }

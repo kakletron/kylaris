@@ -1,0 +1,14 @@
+state={
+	id=502
+	name="STATE_502"
+	provinces={
+		10235 4875 4874 9149 9750 4698 2582 2583 2584 2585 4701 4702 5734 6259 6277 7481 8300 8834 8835 9148 9150 9331 10034 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = NIM
+		buildings = {	}
+		add_core_of = NIM
+	}
+}

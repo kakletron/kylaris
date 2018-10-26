@@ -1,0 +1,14 @@
+state={
+	id=438
+	name="STATE_438"
+	provinces={
+		6 7 927 2812 2813 7027 13 663 4556 5762 9385 7332 441 442
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = SAT
+		buildings = {	}
+		add_core_of = SAT
+	}
+}

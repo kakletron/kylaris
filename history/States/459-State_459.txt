@@ -1,0 +1,20 @@
+
+state={
+	id=459
+	name="STATE_459"
+
+	history={
+		owner = EIS
+		buildings = {
+
+		}
+		add_core_of = EIS
+
+	}
+
+	provinces={
+		55 56 2348 2410 2928 2929 6530 9194 9543 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,20 @@
+
+state={
+	id=599
+	name="STATE_599"
+
+	history={
+		owner = JAR
+		buildings = {
+
+		}
+		add_core_of = JAR
+
+	}
+
+	provinces={
+		1934 3425 4543 5003 5183 5185 5906 7844 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

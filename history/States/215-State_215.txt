@@ -1,0 +1,20 @@
+
+state={
+	id=215
+	name="STATE_215"
+
+	history={
+		owner = MOR
+		buildings = {
+
+		}
+		add_core_of = MOR
+
+	}
+
+	provinces={
+		91 92 93 94 2227 5287 5288 5289 5290 5291 6998 7830 9818 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

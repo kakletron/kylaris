@@ -1,0 +1,21 @@
+
+state={
+	id=61
+	name="STATE_61"
+
+	history={
+		owner = WER
+		buildings = {
+
+		}
+		add_core_of = WER
+		victory_points = { 9781 40 }
+
+	}
+
+	provinces={
+		1798 1799 1800 1801 3410 3498 7679 9721 9781 3494 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

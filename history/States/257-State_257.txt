@@ -1,0 +1,14 @@
+state={
+	id=257
+	name="STATE_257"
+	provinces={
+		6917 8885 3120 8886 7244 7287 1790 1791 1792 1793 1794 3121 4699 6943 7253 8738 9395 118 119 6944 929 7245 7715 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = JOS
+		buildings = {	}
+		add_core_of = JOS
+	}
+}

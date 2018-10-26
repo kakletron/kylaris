@@ -1,0 +1,9 @@
+continents = {
+	euclea
+	asteria_superior
+	asteria_inferior
+	bahia
+	badawiya
+	coius
+	sublustria
+}

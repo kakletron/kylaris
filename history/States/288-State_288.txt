@@ -1,0 +1,15 @@
+state={
+	id=288
+	name="STATE_288"
+	provinces={
+		3897 3898 6186 6502 6503 9275 1711 6434 6435 7550 7551 8314 9231 9817 8315 7936 4933 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = ETR
+		buildings = {	}
+		add_core_of = ETR
+		add_core_of = FLO
+	}
+}

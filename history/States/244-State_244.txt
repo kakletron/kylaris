@@ -1,0 +1,20 @@
+
+state={
+	id=244
+	name="STATE_244"
+
+	history={
+		owner = XUO
+		buildings = {
+
+		}
+		add_core_of = XUO
+
+	}
+
+	provinces={
+		2266 2507 2568 2569 2570 2653 5515 5516 6488 6903 7377 8175 8747 10186 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

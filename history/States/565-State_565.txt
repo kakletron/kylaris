@@ -1,0 +1,14 @@
+state={
+	id=565
+	name="STATE_565"
+	provinces={
+		9028 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = MEI
+		buildings = {	}
+		add_core_of = MEI
+	}
+}

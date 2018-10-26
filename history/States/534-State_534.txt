@@ -1,0 +1,20 @@
+
+state={
+	id=534
+	name="STATE_534"
+
+	history={
+		owner = DOR
+		buildings = {
+
+		}
+		add_core_of = DOR
+
+	}
+
+	provinces={
+		3106 3440 4309 5154 7953 8318 8539 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

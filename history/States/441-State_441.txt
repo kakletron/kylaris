@@ -1,0 +1,20 @@
+
+state={
+	id=441
+	name="STATE_441"
+
+	history={
+		owner = SAT
+		buildings = {
+
+		}
+		add_core_of = SAT
+
+	}
+
+	provinces={
+		9 10 11 12 926 2513 2515 2517 2518 3626 3627 3628 3719 3720 3721 4371 4427 5812 5813 6482 7047 9387 9510 10251 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

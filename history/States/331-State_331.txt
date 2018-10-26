@@ -1,0 +1,19 @@
+
+state={
+	id=331
+	name="STATE_331"
+
+	history={
+		owner = EST
+		buildings = {
+
+		}
+
+	}
+
+	provinces={
+		718 719 720 721 730 3595 3596 5758 5974 7387 9875 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

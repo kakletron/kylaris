@@ -1,0 +1,14 @@
+state={
+	id=590
+	name="STATE_590"
+	provinces={
+		8806 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = VRE
+		buildings = {	}
+		add_core_of = NEG
+	}
+}

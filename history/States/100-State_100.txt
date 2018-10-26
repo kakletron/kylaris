@@ -1,0 +1,14 @@
+state={
+	id=100
+	name="STATE_100"
+	provinces={
+		2814 2815 7720 8477 8478 9230 9370 9371 10110 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = SIP
+		buildings = {	}
+		add_core_of = SIP
+	}
+}

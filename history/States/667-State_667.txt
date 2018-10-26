@@ -1,0 +1,20 @@
+
+state={
+	id=667
+	name="STATE_667"
+
+	history={
+		owner = JAR
+		buildings = {
+
+		}
+		add_core_of = JAR
+
+	}
+
+	provinces={
+		495 496 497 506 5004 6037 6787 6904 9172 10121 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

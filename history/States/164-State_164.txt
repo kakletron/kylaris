@@ -1,0 +1,14 @@
+state={
+	id=164
+	name="STATE_164"
+	provinces={
+		5569 6836 170 3686 6138 6139 6472 6473 6475 6476 6837 6925 7133 7134 8657 4940 8658 4939 152 7445 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = UST
+		buildings = {	}
+		add_core_of = UST
+	}
+}

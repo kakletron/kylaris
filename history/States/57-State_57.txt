@@ -1,0 +1,14 @@
+state={
+	id=57
+	name="STATE_57"
+	provinces={
+		5380 5381 5382 6183 6184 6185 10290 7196 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = HWF
+		buildings = {	}
+		add_core_of = HWF
+	}
+}

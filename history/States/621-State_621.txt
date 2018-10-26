@@ -1,0 +1,20 @@
+
+state={
+	id=621
+	name="STATE_621"
+
+	history={
+		owner = NEG
+		buildings = {
+
+		}
+		add_core_of = NEG
+
+	}
+
+	provinces={
+		1837 3745 3746 5281 5465 9451 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

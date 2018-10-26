@@ -1,0 +1,20 @@
+
+state={
+	id=477
+	name="STATE_477"
+
+	history={
+		owner = SLU
+		buildings = {
+
+		}
+		add_core_of = SLU
+
+	}
+
+	provinces={
+		875 876 877 5118 5999 6000 10315 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

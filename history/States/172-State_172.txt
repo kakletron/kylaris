@@ -1,0 +1,20 @@
+
+state={
+	id=172
+	name="STATE_172"
+
+	history={
+		owner = RYL
+		buildings = {
+
+		}
+		add_core_of = RYL
+
+	}
+
+	provinces={
+		131 132 133 134 137 143 175 2806 2807 4674 4675 4676 6678 6679 6921 6922 7941 7942 8056 8058 8680 8842 10224 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

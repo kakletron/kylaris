@@ -1,0 +1,13 @@
+state={
+	id=648
+	name="STATE_648"
+	provinces={
+		7800 2149 2150 7323 596 597 598 2151 4468 4779 5008 5009 5269 5270 5271 5410 5411 5412 5761 6304 6305 6306 6573 6574 7474 7781 9630 9743 9807 9962 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = WER
+		buildings = {	}
+	}
+}

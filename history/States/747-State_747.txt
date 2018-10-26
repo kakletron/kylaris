@@ -1,0 +1,14 @@
+state={
+	id=747
+	name="STATE_747"
+	provinces={
+		9512 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = NEM
+		buildings = {	}
+		add_core_of = NEM
+	}
+}

@@ -1,0 +1,20 @@
+
+state={
+	id=17
+	name="STATE_17"
+
+	history={
+		owner = NOR
+		buildings = {
+
+		}
+		add_core_of = NOR
+
+	}
+
+	provinces={
+		545 546 2743 2744 2745 2746 4265 4266 6939 9520 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

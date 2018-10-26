@@ -1,0 +1,20 @@
+
+state={
+	id=28
+	name="STATE_28"
+
+	history={
+		owner = ALT
+		buildings = {
+
+		}
+		add_core_of = ALT
+
+	}
+
+	provinces={
+		3234 3235 3236 3237 3470 4630 4631 7449 8243 8875 9072 9073 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

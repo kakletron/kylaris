@@ -1,0 +1,17 @@
+state={
+	id=472
+	name="STATE_472"
+	provinces={
+		9058 3676 5642 5945 5946 5947 5948 5949 7138 7434 7907 9616 1659 1660 1661 1662 3674 3675 5950 7615 8616 9209 9323 396 397 1664 5643 10175 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = NIM
+		buildings = {	}
+		add_core_of = NIM
+		victory_points = {
+			5948 50
+		}
+	}
+}

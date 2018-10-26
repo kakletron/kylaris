@@ -1,0 +1,14 @@
+state={
+	id=239
+	name="STATE_239"
+	provinces={
+		6789 6972 587 586 2234 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = LUM
+		buildings = {	}
+		add_core_of = LUM
+	}
+}

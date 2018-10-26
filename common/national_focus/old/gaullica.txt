@@ -1,0 +1,1158 @@
+focus_tree = {
+	id = gaullican_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = GAL
+		}
+	}
+	
+	default = no
+
+	focus = {
+		id = GAL_metropolitan_gaullica
+		icon = GFX_goal_generic_construct_infrastructure
+		available = {
+		}
+		x = 2
+		y = 0
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		
+		bypass = {
+			custom_trigger_tooltip = {
+				tooltip = GAL_metropolitan_gaullica_tt
+				NOT = {
+					any_owned_state = {
+						free_building_slots = {
+							building = infrastructure
+							size > 2
+						}
+						OR = {
+							region = 19
+							region = 20
+						}		
+					}
+				}
+			}
+		}
+
+		complete_tooltip = {
+			every_state = {
+				limit	= {	has_state_flag = GAL_gaullican_focus_5Inf }
+				add_building_construction = {
+					type = infrastructure
+					level = 5
+					instant_build = yes
+				}
+			}
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 2
+					}
+					OR = {
+						region = 19
+						region = 20
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 5
+					instant_build = yes
+				}
+				set_state_flag = GAL_gaullican_focus_5Inf
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 2
+					}
+					OR = {
+						region = 19
+						region = 20
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 5
+					instant_build = yes
+				}
+				set_state_flag = GAL_gaullican_focus_5Inf
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 2
+					}
+					OR = {
+						region = 19
+						region = 20
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 5
+					instant_build = yes
+				}
+				set_state_flag = GAL_gaullican_focus_5Inf
+			}			
+		}
+	}
+	
+	focus = {
+		id = GAL_industrial_expansion
+		icon = GFX_goal_generic_construct_civ_factory
+		available = {
+		}
+		prerequisite = { focus = GAL_metropolitan_gaullica }
+		x = 2
+		y = 1
+		cost = 10
+		#ai_will_do = {
+		#	factor = 1
+		#}
+		
+		bypass = {
+			custom_trigger_tooltip = {
+				tooltip = GAL_industrial_expansion_tt
+				NOT = {
+					any_owned_state = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 1
+							include_locked = yes
+						}
+						OR = {
+							region = 19
+							region = 20
+						}
+					}
+				}
+			}
+		}
+
+		complete_tooltip = {
+			every_state = {
+				limit = { has_state_flag = GAL_industrial_expansion_2IC }
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+
+		completion_reward = {
+
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+					OR = {
+						region = 19
+						region = 20
+					}					
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = GAL_industrial_expansion_2IC
+			}
+
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						region = 19
+						region = 20
+					}					
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = GAL_industrial_expansion_2IC
+			}
+
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						region = 19
+						region = 20
+					}					
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = GAL_industrial_expansion_2IC
+			}
+
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						region = 19
+						region = 20
+					}					
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = GAL_industrial_expansion_2IC
+			}
+		}
+	}
+
+	focus = {
+		id = GAL_military_industry
+		icon = GFX_goal_generic_construct_mil_factory
+		available = {
+		}
+		prerequisite = { focus = GAL_industrial_expansion }
+		x = 2
+		y = 2
+		cost = 10
+		#ai_will_do = {
+		#	factor = 1
+		#}
+		
+		bypass = {
+			custom_trigger_tooltip = {
+				tooltip = GAL_military_industry_tt
+				NOT = {
+					any_owned_state = {
+						free_building_slots = {
+							building = arms_factory
+							size > 1
+							include_locked = yes
+						}
+						OR = {
+							region = 19
+							region = 20
+						}		
+					}
+				}
+			}
+		}
+
+		complete_tooltip = {
+			every_state = {
+				limit = { has_state_flag = GAL_military_industry_2MF }
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+			every_state = {
+				limit = { has_state_flag = GAL_military_industry_1MF }
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+					OR = {
+						region = 19
+						region = 20
+					}					
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = GAL_military_industry_2MF
+			}
+
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						region = 19
+						region = 20
+					}					
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				set_state_flag = GAL_military_industry_1MF
+			}
+
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						region = 19
+						region = 20
+					}					
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				set_state_flag = GAL_military_industry_1MF
+			}
+
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						region = 19
+						region = 20
+					}					
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				set_state_flag = GAL_military_industry_1MF
+			}
+		}
+	}
+	
+	focus = {
+		id = GAL_invest_in_eastern_wazovia
+		icon = GFX_goal_generic_improve_relations
+		available = {
+		}
+		prerequisite = { focus = GAL_metropolitan_gaullica }
+		x = 0
+		y = 1
+		cost = 10
+		#ai_will_do = {
+		#	factor = 1
+		#}
+		
+		bypass = {
+			custom_trigger_tooltip = {
+				tooltip = GAL_invest_in_eastern_wazovia_tt
+				NOT = {
+					any_owned_state = {
+						free_building_slots = {
+							building = infrastructure
+							size > 2
+						}
+						OR = {
+							region = 19
+							region = 20
+						}		
+					}
+				}
+			}
+		}
+
+		complete_tooltip = {
+			every_state = {
+				limit	= {	has_state_flag = GAL_gaullican_focus_5Inf }
+				add_building_construction = {
+					type = infrastructure
+					level = 5
+					instant_build = yes
+				}
+			}
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 5
+					}
+					OR = {
+						region = 19
+						region = 20
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 5
+					instant_build = yes
+				}
+				set_state_flag = GAL_gaullican_focus_5Inf
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 5
+					}
+					OR = {
+						region = 19
+						region = 20
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 5
+					instant_build = yes
+				}
+				set_state_flag = GAL_gaullican_focus_5Inf
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 5
+					}
+					OR = {
+						region = 19
+						region = 20
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 5
+					instant_build = yes
+				}
+				set_state_flag = GAL_gaullican_focus_5Inf
+			}			
+		}
+	}
+	
+	focus = {
+		id = GAL_uplifting_the_empire
+		icon = GFX_goal_generic_construct_civilian
+		available = {
+		}
+		x = 4
+		y = 0
+		cost = 10
+		ai_will_do = {
+			factor = 0.2
+		}
+
+		available_if_capitulated = yes
+
+		bypass = {
+			custom_trigger_tooltip = {
+				tooltip = GAL_uplifting_the_empire_tt
+				NOT = {
+					any_owned_state = {
+						free_building_slots = {
+							building = infrastructure
+							size > 1
+						}
+						NOT = { is_on_continent = europe }
+					}
+				}
+			}
+		}		
+
+		complete_tooltip = {
+			every_state = {
+				limit = { has_state_flag = GAL_uplifting_the_empire_2Inf }
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			every_state = {
+				limit = { has_state_flag = GAL_uplifting_the_empire_4Inf }
+				add_building_construction = {
+					type = infrastructure
+					level = 4
+					instant_build = yes
+				}
+			}
+		}
+
+		completion_reward = {
+			if = {
+				limit = {
+					NOT = {
+						AND = {
+							459 = {
+								free_building_slots = {
+									building = infrastructure
+									size > 1
+								}
+							}
+							460 = {
+								free_building_slots = {
+									building = infrastructure
+									size > 1
+								}
+							}
+						}
+					}
+					AND = {
+						NOT ={
+							459 = {
+								free_building_slots = {
+									building = infrastructure
+									size > 3
+								}
+							}
+						}
+						460 = {
+							NOT = {
+								free_building_slots = {
+									building = infrastructure
+									size > 3
+								}
+							}
+						}
+					}					
+				}
+				random_owned_controlled_state = {
+					limit =  {
+						free_building_slots = {
+							building = infrastructure
+							size > 1
+						}
+						NOT = { is_on_continent = europe }
+					}
+					add_building_construction = {
+						type = infrastructure
+						level = 2
+						instant_build = yes
+					}
+					set_state_flag = GAL_uplifting_the_empire_2Inf
+				}
+				random_owned_controlled_state = {
+					limit =  {
+						free_building_slots = {
+							building = infrastructure
+							size > 1
+						}
+						NOT = { is_on_continent = europe }
+					}
+					add_building_construction = {
+						type = infrastructure
+						level = 2
+						instant_build = yes
+					}
+					set_state_flag = GAL_uplifting_the_empire_2Inf
+				}
+			}
+
+			if = {
+				limit = {
+					OR = {
+						NOT = {				
+							459 = {
+								free_building_slots = {
+									building = infrastructure
+									size > 1
+								}
+							}
+						}
+						NOT = {				
+							460 = {
+								free_building_slots = {
+									building = infrastructure
+									size > 1
+								}
+							}
+						}
+					}
+					OR = {
+						459 = {
+							free_building_slots = {
+								building = infrastructure
+								size > 3
+							}
+						}
+						460 = {
+							free_building_slots = {
+								building = infrastructure
+								size > 3
+							}
+						}
+					}
+				}
+				every_owned_state = {
+					limit = {
+						is_controlled_by = ROOT
+						free_building_slots = {
+							building = infrastructure
+							size > 3
+						}
+						OR = {
+							state = 459
+							state = 460					
+						}
+					}					
+					add_building_construction = {
+						type = infrastructure
+						level = 4
+						instant_build = yes
+					}
+					set_state_flag = GAL_uplifting_the_empire_4Inf
+				}
+			}
+
+			if = {
+				limit = {
+					459 = {
+						free_building_slots = {
+							building = infrastructure
+							size > 1
+						}
+					}
+					460 = {
+						free_building_slots = {
+							building = infrastructure
+							size > 1
+						}
+					}
+				}
+				459 = {
+					add_building_construction = {
+						type = infrastructure
+						level = 2
+						instant_build = yes
+					}
+					set_state_flag = GAL_uplifting_the_empire_2Inf
+				}
+				460 = {
+					add_building_construction = {
+						type = infrastructure
+						level = 2
+						instant_build = yes
+					}
+					set_state_flag = GAL_uplifting_the_empire_2Inf
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = GAL_aid_parche
+		prerequisite = { focus = GAL_uplifting_the_empire }
+		available = {
+			is_in_faction_with = PAR
+		} 
+		icon = GFX_goal_generic_improve_relations
+		x = 6
+		y = 1
+		cost = 10
+
+		available_if_capitulated = yes
+
+		bypass = {
+			PAR = {
+				custom_trigger_tooltip = {
+					tooltip = construction_effort_tt
+					all_owned_state = {
+						free_building_slots = {
+							building = industrial_complex
+							size < 1
+							include_locked = yes
+						}
+					}
+				}
+				custom_trigger_tooltip = {
+					tooltip = naval_effort_tt
+					all_owned_state = {
+						free_building_slots = {
+							building = dockyard
+							size < 1
+							include_locked = yes
+						}
+					}
+				}
+			}
+		}
+
+		complete_tooltip = {
+			PAR = {
+				add_opinion_modifier = { target = GAL modifier = aided_industry }
+				every_state = { limit = { has_state_flag = GAL_aid_parche_2IC }
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = industrial_complex
+						level = 2
+						instant_build = yes
+					}
+				}
+				every_state = { limit = { has_state_flag = GAL_aid_parche_1IC }
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+				every_state = { limit = { has_state_flag = GAL_aid_parche_1dockyard }
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = dockyard
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+		}
+
+		completion_reward = {
+			PAR = {
+				add_opinion_modifier = { target = GAL modifier = aided_industry }
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 1
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = industrial_complex
+						level = 2
+						instant_build = yes
+					}
+					set_state_flag = GAL_aid_parche_2IC
+				}
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 0
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+					set_state_flag = GAL_aid_parche_1IC
+				}
+				random_owned_controlled_state = {
+					limit = {
+						is_coastal = yes
+						free_building_slots = {
+							building = dockyard
+							size > 0
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = dockyard
+						level = 1
+						instant_build = yes
+					}
+					set_state_flag = GAL_aid_parche_1dockyard
+				}
+				random_owned_controlled_state = {
+					limit = {
+						is_coastal = yes
+						free_building_slots = {
+							building = dockyard
+							size > 0
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = dockyard
+						level = 1
+						instant_build = yes
+					}
+					set_state_flag = GAL_aid_parche_1dockyard
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = GAL_colonial_industry
+		icon = GFX_goal_generic_construct_civ_factory
+		available = {
+		}
+		prerequisite = { focus = GAL_uplifting_the_empire }
+		x = 4
+		y = 1
+		cost = 10
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		bypass = {
+			custom_trigger_tooltip = {
+				tooltip = GAL_colonial_industry_tt
+				NOT = {
+					any_owned_state = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 1
+							include_locked = yes
+						}
+						NOT = { is_on_continent = europe }
+					}
+				}
+			}
+		}
+
+		complete_tooltip = {
+			every_state = {
+				limit = { has_state_flag = GAL_colonial_industry_4IC }
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = industrial_complex
+					level = 4
+					instant_build = yes
+				}
+			}
+			every_state = {
+				limit = { has_state_flag = GAL_colonial_industry_2IC }
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+
+		completion_reward = {
+			if = {
+				limit = {
+					NOT = {
+						459 = {
+							free_building_slots = {
+								building = industrial_complex
+								size > 3
+								include_locked = yes
+							}
+						}
+					}
+				}
+				random_owned_controlled_state =  {
+					limit = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 1
+							include_locked = yes
+						}
+						NOT = { is_on_continent = europe }
+					}
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = industrial_complex
+						level = 2
+						instant_build = yes
+					}
+					set_state_flag = GAL_colonial_industry_2IC
+				}
+				random_owned_controlled_state =  {
+					limit = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 1
+							include_locked = yes
+						}
+						NOT = { is_on_continent = europe }
+					}
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = industrial_complex
+						level = 2
+						instant_build = yes
+					}
+					set_state_flag = GAL_colonial_industry_2IC
+				}
+			}
+			if = {
+				limit = {
+					459 = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 3
+							include_locked = yes
+						}
+					}
+				}
+				459 = {
+					add_extra_state_shared_building_slots = 4
+					add_building_construction = {
+						type = industrial_complex
+						level = 4
+						instant_build = yes
+					}
+					set_state_flag = GAL_colonial_industry_4IC
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = GAL_colonial_military_factories
+		icon = GFX_goal_generic_construct_mil_factory
+		available = {
+		}
+		prerequisite = { focus = GAL_colonial_industry }
+		x = 4
+		y = 2
+		cost = 10
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		bypass = {
+			custom_trigger_tooltip = {
+				tooltip = GAL_colonial_military_factories_tt
+				NOT = {
+					any_owned_state = {
+						free_building_slots = {
+							building = arms_factory
+							size > 1
+							include_locked = yes
+						}
+						NOT = { is_on_continent = europe }
+					}
+				}
+			}
+		}
+
+		complete_tooltip = {
+			every_state = {
+				limit = { has_state_flag = GAL_colonial_military_factories_4MF }
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = arms_factory
+					level = 4
+					instant_build = yes
+				}
+			}
+			every_state = {
+				limit = { has_state_flag = GAL_colonial_military_factories_2MF }
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+
+		completion_reward = {
+			if = {
+				limit = {
+					NOT = {
+						459 = {
+							free_building_slots = {
+								building = arms_factory
+								size > 3
+								include_locked = yes
+							}
+						}
+					}
+				}
+				random_owned_controlled_state =  {
+					limit = {
+						free_building_slots = {
+							building = arms_factory
+							size > 1
+							include_locked = yes
+						}
+						NOT = { is_on_continent = europe }
+					}
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = arms_factory
+						level = 2
+						instant_build = yes
+					}
+					set_state_flag = GAL_colonial_military_factories_2MF
+				}
+				random_owned_controlled_state =  {
+					limit = {
+						free_building_slots = {
+							building = arms_factory
+							size > 1
+							include_locked = yes
+						}
+						NOT = { is_on_continent = europe }
+					}
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = arms_factory
+						level = 2
+						instant_build = yes
+					}
+					set_state_flag = GAL_colonial_military_factories_2MF
+				}
+			}
+			if = {
+				limit = {
+					459 = {
+						free_building_slots = {
+							building = arms_factory
+							size > 3
+							include_locked = yes
+						}
+					}
+				}
+				459 = {
+					add_extra_state_shared_building_slots = 4
+					add_building_construction = {
+						type = arms_factory
+						level = 4
+						instant_build = yes
+					}
+					set_state_flag = GAL_colonial_military_factories_4MF
+				}			
+			}
+		}
+	}
+	
+	focus = {
+		id = GAL_extra_research_slot
+		icon = GFX_focus_research
+		available = {
+		}
+		prerequisite = {
+			focus = GAL_colonial_military_factories
+			focus = GAL_military_industry
+		}
+		x = 3
+		y = 3
+		cost = 10
+
+		available_if_capitulated = yes
+
+		#ai_will_do = {
+		#	factor = 1
+		#}
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+	
+	focus = {
+		id = GAL_nuclear_effort
+		icon = GFX_focus_wonderweapons
+		mutually_exclusive = { focus = GAL_jet_effort }
+		available = {
+		}
+		prerequisite = { focus = GAL_extra_research_slot }
+		x = 2
+		y = 4
+		cost = 10
+
+		available_if_capitulated = yes
+
+		#ai_will_do = {
+		#	factor = 1
+		#}
+		completion_reward = {
+			add_tech_bonus = {
+				name = GAL_nuclear_effort
+				bonus = 0.5
+				category = nuclear
+				category = rocketry
+			}
+			news_event = { id = news.174 } 
+		}
+	}
+
+	focus = {
+		id = GAL_jet_effort
+		mutually_exclusive = { focus = GAL_nuclear_effort }
+		icon = GFX_focus_rocketry
+		available = {
+		}
+		prerequisite = { focus = GAL_extra_research_slot }
+		x = 4
+		y = 4
+		cost = 10
+
+		available_if_capitulated = yes
+
+		#ai_will_do = {
+		#	factor = 1
+		#}
+		completion_reward = {
+			air_experience = 25
+			add_tech_bonus = {
+				name = GAL_jet_effort
+				bonus = 0.5
+				uses = 4
+				category = jet_technology
+			}
+		}
+	}
+}

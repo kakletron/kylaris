@@ -1,0 +1,14 @@
+state={
+	id=769
+	name="STATE_769"
+	provinces={
+		6316 1651 1652 7352 8204 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = EIS
+		buildings = {	}
+		add_core_of = EIS
+	}
+}

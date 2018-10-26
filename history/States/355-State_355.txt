@@ -1,0 +1,17 @@
+state={
+	id=355
+	name="STATE_355"
+	provinces={
+		10303 10305 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+
+	history={
+		owner = EST
+		buildings = {
+
+		}
+		add_core_of = EST
+	}
+}

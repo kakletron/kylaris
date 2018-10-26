@@ -1,0 +1,14 @@
+state={
+	id=146
+	name="STATE_146"
+	provinces={
+		6490 6799 10178 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = FOA
+		buildings = {	}
+		add_core_of = FOA
+	}
+}

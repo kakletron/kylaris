@@ -1,0 +1,132 @@
+﻿capital = 274
+
+oob = "FLO_1924"
+
+set_research_slots = 3
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_mountaineers = 1
+	gw_artillery = 1
+	early_fighter = 1
+	early_bomber = 1
+	naval_bomber1 = 1
+	early_submarine = 1
+	early_destroyer = 1
+	basic_destroyer = 1
+	early_light_cruiser = 1
+	early_heavy_cruiser = 1
+	basic_heavy_cruiser = 1
+	early_battleship = 1
+	transport = 1
+}
+
+set_politics = {
+
+	parties = {
+	
+		functionalist = { 
+			popularity = 20
+		}
+		
+		traditionalist = { 
+			popularity = 60
+		}
+		
+		liberal_democrat = {
+			popularity = 20
+		}		
+		
+		radical_populist = {
+			popularity = 0
+		}		
+		
+		collectivist = {
+			popularity = 0
+		}
+	}
+	
+	ruling_party = functionalist
+	last_election = "1923.2.16"
+	election_frequency = 60
+	elections_allowed = no
+}
+
+set_convoys = 150
+set_national_unity = 0.5
+
+create_country_leader = {
+	name = "Isabela Elíamar"
+	desc = "POLITICS_ISABELA_ELIAMAR_DESC"
+	picture = "Portrait_Florena_Isabela_Eliamar.dds"
+	expire = "1965.1.1"
+	ideology = radical_populist
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Gabriel II"
+	desc = "POLITICS_GABRIEL_II_DESC"
+	picture = "Portrait_Florena_Gabriel_II.dds"
+	expire = "1965.1.1"
+	ideology = euclean_constitutionalist
+	traits = {
+		popular_figurehead
+	}
+}
+
+create_country_leader = {
+	name = "Gabriel II"
+	desc = "POLITICS_GABRIEL_II_DESC"
+	picture = "Portrait_Florena_Gabriel_II.dds"
+	expire = "1965.1.1"
+	ideology = functionalist_ideology
+	traits = {
+		popular_figurehead
+	}
+}
+
+create_country_leader = {
+	name = "Gabriel II"
+	desc = "POLITICS_GABRIEL_II_DESC"
+	picture = "Portrait_Florena_Gabriel_II.dds"
+	expire = "1965.1.1"
+	ideology = liberal_democrat_ideology
+	traits = {
+		popular_figurehead
+	}
+}
+
+create_country_leader = {
+	name = "Gabriel II"
+	desc = "POLITICS_GABRIEL_II_DESC"
+	picture = "Portrait_Florena_Gabriel_II.dds"
+	expire = "1965.1.1"
+	ideology = radical_populist_ideology
+	traits = {
+		popular_figurehead
+	}
+}
+
+create_country_leader = {
+	name = "Gabriel II"
+	desc = "POLITICS_GABRIEL_II_DESC"
+	picture = "Portrait_Florena_Gabriel_II.dds"
+	expire = "1965.1.1"
+	ideology = collectivist_ideology
+	traits = {
+		popular_figurehead
+	}
+}
+
+create_field_marshal = {
+	name = "Gabriel II"
+	portrait_path = "gfx/leaders/Europe/Portrait_Florena_Gabriel_II.dds"
+	traits = { old_guard }
+	skill = 4
+}

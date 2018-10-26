@@ -1,0 +1,54 @@
+﻿capital = 424
+
+oob = "ZIM_1924"
+
+set_research_slots = 3
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+}
+
+set_convoys = 10
+
+set_politics = {
+
+	parties = {
+	
+		functionalist = { 
+			popularity = 0
+		}
+		
+		traditionalist = { 
+			popularity = 20
+		}
+		
+		liberal_democrat = {
+			popularity = 10
+		}		
+		
+		radical_populist = {
+			popularity = 10
+		}		
+		
+		collectivist = {
+			popularity = 60
+		}
+	}
+	
+	ruling_party = collectivist
+	last_election = "1933.1.24"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Kuntur Qhapaq"
+	desc = "POLITICS_KUNTUR_QHAPAQ_DESC"
+	picture = "Portrait_Zimte_Kuntur_Qhapaq.dds"
+	expire = "1965.1.1"
+	ideology = collectivist_ideology
+	traits = {
+		
+	}
+}

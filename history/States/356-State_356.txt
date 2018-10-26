@@ -1,0 +1,20 @@
+
+state={
+	id=356
+	name="STATE_356"
+
+	history={
+		owner = NOV
+		buildings = {
+
+		}
+		add_core_of = NOV
+
+	}
+
+	provinces={
+		1006 1007 1008 1009 1010 1011 3184 3185 3374 3375 7796 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

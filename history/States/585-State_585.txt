@@ -1,0 +1,20 @@
+
+state={
+	id=585
+	name="STATE_585"
+
+	history={
+		owner = IHY
+		buildings = {
+
+		}
+		add_core_of = IHY
+
+	}
+
+	provinces={
+		1666 1930 1931 1932 1933 2801 2802 2803 3356 3797 6497 6945 7684 8106 8381 8987 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

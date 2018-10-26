@@ -1,0 +1,14 @@
+state={
+	id=76
+	name="STATE_76"
+	provinces={
+		1201 1202 1998 4055 4056 5031 7851 5929 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = WER
+		buildings = {	}
+		add_core_of = WER
+	}
+}

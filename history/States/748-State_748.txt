@@ -1,0 +1,20 @@
+
+state={
+	id=748
+	name="STATE_748"
+
+	history={
+		owner = VAL
+		buildings = {
+
+		}
+		add_core_of = VAL
+
+	}
+
+	provinces={
+		1082 3138 3678 3680 3681 3682 4560 4561 4854 5113 5416 5417 5452 5561 5562 6059 6788 6897 6898 6899 8079 8080 8317 9164 9589 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

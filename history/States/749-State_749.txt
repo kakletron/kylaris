@@ -1,0 +1,13 @@
+state={
+	id=749
+	name="STATE_749"
+	provinces={
+		1489 3916 3917 3918 3919 6614 9638 9673 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = WER
+		buildings = {	}
+	}
+}

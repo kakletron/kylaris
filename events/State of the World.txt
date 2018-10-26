@@ -1,0 +1,37 @@
+###########################
+# State of the World Events
+###########################
+
+add_namespace = stateoftheworld
+
+# State of the World
+country_event = {
+	id = stateoftheworld.1
+	title = stateoftheworld.1.t
+	desc = stateoftheworld.1.d
+	picture = GFX_report_event_ast_army
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = stateoftheworld.1.a
+		trigger = {
+			NOT = {
+				has_government = functionalist
+				has_government = collectivist
+			}
+		}
+	}
+	option = {
+		name = stateoftheworld.1.b
+		trigger = { has_government = functionalist }
+	}
+	option = {
+		name = stateoftheworld.1.c
+		trigger = { has_government = collectivist }
+	}
+}

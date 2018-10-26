@@ -1,0 +1,20 @@
+
+state={
+	id=513
+	name="STATE_513"
+
+	history={
+		owner = SAR
+		buildings = {
+
+		}
+		add_core_of = SAR
+
+	}
+
+	provinces={
+		743 745 746 747 915 5371 5413 5910 5911 5913 6790 8554 8555 8894 8896 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

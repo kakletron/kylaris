@@ -1,0 +1,13 @@
+state={
+	id=383
+	name="STATE_383"
+	provinces={
+		4235 4236 6741 7669 7790 7791 7834 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = EST
+		buildings = {	}
+	}
+}

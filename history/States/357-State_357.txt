@@ -1,0 +1,19 @@
+
+state={
+	id=357
+	name="STATE_357"
+
+	history={
+		owner = GAL
+		buildings = {
+
+		}
+
+	}
+
+	provinces={
+		763 811 812 813 2145 4581 4582 4851 6179 6180 7983 8515 9243 9733 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

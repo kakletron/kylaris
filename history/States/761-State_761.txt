@@ -1,0 +1,13 @@
+state={
+	id=761
+	name="STATE_761"
+	provinces={
+		573 3436 3437 3438 3439 6884 7305 8526 9399 9681 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = EST
+		buildings = {	}
+	}
+}

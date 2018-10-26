@@ -1,0 +1,21 @@
+
+state={
+	id=106
+	name="STATE_106"
+
+	history={
+		owner = BUC
+		buildings = {
+
+		}
+		add_core_of = BUC
+		add_core_of = EST
+
+	}
+
+	provinces={
+		1222 1479 1480 1481 3418 6642 7094 7914 8725 8726 9530 10080 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

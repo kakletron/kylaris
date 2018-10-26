@@ -1,0 +1,20 @@
+
+state={
+	id=345
+	name="STATE_345"
+
+	history={
+		owner = ETR
+		buildings = {
+
+		}
+		add_core_of = ETR
+
+	}
+
+	provinces={
+		1706 3872 3876 3877 7117 7119 7120 9728 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

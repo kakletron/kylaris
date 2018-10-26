@@ -1,0 +1,14 @@
+state={
+	id=627
+	name="STATE_627"
+	provinces={
+		8320 2614 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = FLO
+		buildings = {	}
+		add_core_of = NEG
+	}
+}

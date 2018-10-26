@@ -1,0 +1,20 @@
+
+state={
+	id=499
+	name="STATE_499"
+
+	history={
+		owner = ALA
+		buildings = {
+
+		}
+		add_core_of = ALA
+
+	}
+
+	provinces={
+		1409 1410 1411 2181 2279 4369 4510 4511 5453 5540 5541 9787 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

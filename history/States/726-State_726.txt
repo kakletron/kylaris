@@ -1,0 +1,13 @@
+state={
+	id=726
+	name="STATE_726"
+	provinces={
+		3777 3778 3783 3784 3785 4987 6821 7471 7472 7574 7655 7810 9138 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = WER
+		buildings = {	}
+	}
+}

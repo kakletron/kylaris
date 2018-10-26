@@ -1,0 +1,14 @@
+state={
+	id=672
+	name="STATE_672"
+	provinces={
+		1521 1574 1575 1890 1891 1892 1894 1895 1903 4886 4887 4888 5105 5106 5193 5194 5998 7462 8969 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = SON
+		buildings = {	}
+		add_core_of = SON
+	}
+}

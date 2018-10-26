@@ -1,0 +1,129 @@
+﻿capital = 165
+
+oob = "FOA_1924"
+
+set_research_slots = 4
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+	gw_artillery = 1
+	gwtank = 1
+	early_fighter = 1
+	cv_early_fighter = 1
+	cv_naval_bomber1 = 1
+	cv_CAS1 = 1
+	naval_bomber1 = 1
+	CAS1 = 1
+	early_bomber = 1
+	early_submarine = 1
+	basic_submarine = 1
+	early_destroyer = 1
+	early_light_cruiser = 1
+	basic_light_cruiser = 1
+	early_heavy_cruiser = 1
+	early_battleship = 1
+	early_battlecruiser = 1
+	early_carrier = 1
+	basic_carrier = 1
+	transport = 1
+	superior_firepower = 1
+	base_strike = 1
+
+}
+
+set_convoys = 400
+set_national_unity = 0.6
+
+set_politics = {
+
+	parties = {
+	
+		functionalist = { 
+			popularity = 10
+		}
+		
+		traditionalist = { 
+			popularity = 40
+		}
+		
+		liberal_democrat = {
+			popularity = 40
+		}		
+		
+		radical_populist = {
+			popularity = 10
+		}		
+		
+		collectivist = {
+			popularity = 0
+		}
+	}
+	
+	ruling_party = liberal_democrat
+	last_election = "1921.11.8"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+add_ideas = {
+}
+
+create_country_leader = {
+	name = "Richard Parker"
+	desc = "POLITICS_RICHARD_PARKER_DESC"
+	picture = "Portrait_Federation_Richard_Parker.dds"
+	expire = "1965.1.1"
+	ideology = asterian_liberal
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Jackson West"
+	desc = "POLITICS_JACKSON_WEST_DESC"
+	picture = "Portrait_Federation_Jackson_West.dds"
+	expire = "1965.1.1"
+	ideology = asterian_conservative
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Benjamin Sutton"
+	desc = "POLITICS_BENJAMIN_SUTTON_DESC"
+	picture = "Portrait_Federation_Benjamin_Sutton.dds"
+	expire = "1965.1.1"
+	ideology = asterian_liberal
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Reginald Mandleson"
+	desc = "POLITICS_REGINALD_MANDLESON_DESC"
+	picture = "Portrait_Federation_Reginald_Mandleson.dds"
+	expire = "1965.1.1"
+	ideology = functionalist_ideology
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Kate Lincoln"
+	desc = "POLITICS_KATE_LINCOLN_DESC"
+	picture = "Portrait_Federation_Kate_Lincoln.dds"
+	expire = "1965.1.1"
+	ideology = collectivist_ideology
+	traits = {
+		
+	}
+}

@@ -1,0 +1,48 @@
+###########################
+# Florena Events
+###########################
+
+add_namespace = florena
+
+# The Fall of Verlois (Florena)
+news_event = {
+	id = florena.1
+	title = florena.1.t
+	desc = florena.1.d
+	picture = GFX_news_event_soldiers_marching
+	
+	major = yes
+	
+	trigger = {
+		16 = { is_controlled_by = FLO }
+		16 = { is_owned_by = GAL }
+		FLO = { has_war_with = GAL }
+		NOT = { has_global_flag = fall_of_verlois_flo }
+	}
+	
+	immediate = {
+		set_global_flag = fall_of_verlois_flo
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = florena.1.a
+		trigger = {
+			NOT = {
+				TAG = GAL
+				TAG = FLO
+			}
+		}
+	}
+	option = {
+		name = florena.1.b
+		trigger = { TAG = FLO }
+	}
+	option = {
+		name = florena.1.c
+		trigger = { TAG = GAL }
+	}
+}

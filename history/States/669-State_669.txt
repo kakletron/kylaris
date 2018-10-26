@@ -1,0 +1,14 @@
+state={
+	id=669
+	name="STATE_669"
+	provinces={
+		10227 7314 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = GAL
+		buildings = {	}
+		add_core_of = SON
+	}
+}

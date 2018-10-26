@@ -1,0 +1,14 @@
+state={
+	id=90
+	name="STATE_90"
+	provinces={
+		1204 1205 1206 1207 5930 5931 7424 8811 9338 9398
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = WER
+		buildings = {	}
+		add_core_of = WER
+	}
+}

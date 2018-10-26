@@ -1,0 +1,14 @@
+state={
+	id=759
+	name="STATE_759"
+	provinces={
+		8437 8438 9327 1186 1189 1190 1191 1192 4363 4364 4365 5278 6178 6577 6578 6579 7071 9208 1188 1187 3938 4366 4367 5365 7070 7072 8399 9352 9424 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = NEM
+		buildings = {	}
+		add_core_of = SON
+	}
+}

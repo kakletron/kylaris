@@ -1,0 +1,20 @@
+
+state={
+	id=363
+	name="STATE_363"
+
+	history={
+		owner = LIN
+		buildings = {
+
+		}
+		add_core_of = LIN
+
+	}
+
+	provinces={
+		2715 3382 3432 3433 3434 3536 5439 5440 5441 5653 7150 7161 7389 7704 8149 8367 8883 9054 9255 10062 10248 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

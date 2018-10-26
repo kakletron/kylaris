@@ -1,0 +1,13 @@
+state={
+	id=289
+	name="STATE_289"
+	provinces={
+		1586 1587 1588 1589 3164 3165 3166 3167 3168 4351 4812 7433 7963 8504 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = EST
+		buildings = {		}
+	}
+}

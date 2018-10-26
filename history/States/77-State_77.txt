@@ -1,0 +1,14 @@
+state={
+	id=77
+	name="STATE_77"
+	provinces={
+		575 576 577 578 593 1845 1846 2079 2080 2336 3592 4734 5699 7807 5697 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = SEN
+		buildings = {	}
+		add_core_of = SEN
+	}
+}

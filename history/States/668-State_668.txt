@@ -1,0 +1,20 @@
+
+state={
+	id=668
+	name="STATE_668"
+
+	history={
+		owner = NEM
+		buildings = {
+
+		}
+		add_core_of = NEM
+
+	}
+
+	provinces={
+		1342 1343 1344 1345 1346 1449 1453 4795 8735 8898 8899 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

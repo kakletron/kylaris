@@ -1,0 +1,19 @@
+
+state={
+	id=443
+	name="STATE_443"
+
+	history={
+		owner = ETR
+		buildings = {
+
+		}
+
+	}
+
+	provinces={
+		1957 2058 2059 2065 2066 3613 3614 5589 5607 6131 6132 6519 6520 6600 7479 7480 8534 8880 9873 9955 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

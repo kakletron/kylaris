@@ -1,0 +1,20 @@
+
+state={
+	id=449
+	name="STATE_449"
+
+	history={
+		owner = COS
+		buildings = {
+
+		}
+		add_core_of = COS
+
+	}
+
+	provinces={
+		922 923 924 3044 3435 4670 7442 7443 7444 8372 9555 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,20 @@
+
+state={
+	id=424
+	name="STATE_424"
+
+	history={
+		owner = ZIM
+		buildings = {
+
+		}
+		add_core_of = ZIM
+
+	}
+
+	provinces={
+		512 513 1581 1582 1583 1584 1585 2462 2463 3705 5307 7709 7829 10078 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

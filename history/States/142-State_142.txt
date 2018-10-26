@@ -1,0 +1,20 @@
+
+state={
+	id=142
+	name="STATE_142"
+
+	history={
+		owner = FOA
+		buildings = {
+
+		}
+		add_core_of = FOA
+
+	}
+
+	provinces={
+		25 41 3749 3750 3751 3752 3753 3754 3755 3756 3757 3760 3761 3762 3763 6478 6479 7505 7620 7887 8209 8432 9269 9938 10011 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

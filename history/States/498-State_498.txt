@@ -1,0 +1,20 @@
+
+state={
+	id=498
+	name="STATE_498"
+
+	history={
+		owner = VIL
+		buildings = {
+
+		}
+		add_core_of = VIL
+
+	}
+
+	provinces={
+		1404 1405 1406 3631 3632 3633 4695 4865 4866 5092 5093 5094 5433 7978 8185 9925 10043 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

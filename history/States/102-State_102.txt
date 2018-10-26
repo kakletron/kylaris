@@ -1,0 +1,14 @@
+state={
+	id=102
+	name="STATE_102"
+	provinces={
+		5132 7660 7661 7940 8139 8808 10039 10179 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = LUZ
+		buildings = {	}
+		add_core_of = LUZ
+	}
+}

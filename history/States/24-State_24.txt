@@ -1,0 +1,20 @@
+
+state={
+	id=24
+	name="STATE_24"
+
+	history={
+		owner = ALT
+		buildings = {
+
+		}
+		add_core_of = ALT
+
+	}
+
+	provinces={
+		2847 4632 4633 5490 7840 7954 9009 9304 10285 10286 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,13 @@
+state={
+	id=420
+	name="STATE_420"
+	provinces={
+		7411 10306 7412 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = EST
+		buildings = {	}
+	}
+}

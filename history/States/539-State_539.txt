@@ -1,0 +1,15 @@
+state={
+	id=539
+	name="STATE_539"
+	provinces={
+		2420 2421 2422 2424 2425 2430 2431 2629 2633 2634 2782 3735 3736 4074 4075 4439 4440 4441 4442 5251 5262 5285 5449 5450 5451 8007 8272 8718 9611 10103 10116 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = BER
+		buildings = {	}
+		add_core_of = BER
+		add_core_of = NEG
+	}
+}

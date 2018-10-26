@@ -1,0 +1,14 @@
+state={
+	id=110
+	name="STATE_110"
+	provinces={
+		590 1696 4984 5228 8871 8992 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = KAS
+		buildings = {	}
+		add_core_of = KAS
+	}
+}

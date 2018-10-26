@@ -1,0 +1,14 @@
+state={
+	id=129
+	name="STATE_129"
+	provinces={
+		591 1697 1698 1758 3215 4983 4979 4980 8158 8159 8161 9041 9299 9379 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = KAS
+		buildings = {	}
+		add_core_of = KAS
+	}
+}

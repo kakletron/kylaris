@@ -1,0 +1,20 @@
+
+state={
+	id=155
+	name="STATE_155"
+
+	history={
+		owner = MAR
+		buildings = {
+
+		}
+		add_core_of = MAR
+
+	}
+
+	provinces={
+		1869 1870 1871 1872 3620 4040 4041 4104 6704 6705 6706 8724 9127 9360 9361 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

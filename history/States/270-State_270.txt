@@ -1,0 +1,14 @@
+state={
+	id=270
+	name="STATE_270"
+	provinces={
+		4068 5177 6522 7455 8999 9344 10054 10099 7051 7052 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = GAL
+		buildings = {	}
+		add_core_of = SAT
+	}
+}

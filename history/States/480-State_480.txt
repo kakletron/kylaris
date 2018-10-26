@@ -1,0 +1,19 @@
+
+state={
+	id=480
+	name="STATE_480"
+
+	history={
+		owner = GAL
+		buildings = {
+
+		}
+
+	}
+
+	provinces={
+		460 466 467 468 1230 1231 1232 1841 3081 3552 4269 5099 5100 6318 6652 6653 6695 7404 9801 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

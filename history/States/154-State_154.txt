@@ -1,0 +1,14 @@
+state={
+	id=154
+	name="STATE_154"
+	provinces={
+		3687 3688 4937 6805 6806 7935 8988 9065 9222 9623 9624 9841 8656 8621 4938 5230 5233 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = UST
+		buildings = {	}
+		add_core_of = UST
+	}
+}

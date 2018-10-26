@@ -1,0 +1,14 @@
+state={
+	id=265
+	name="STATE_265"
+	provinces={
+		196 197 198 708 3684 4454 4455 6686 6999 7675 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = ROE
+		buildings = {	}
+		add_core_of = ROE
+	}
+}

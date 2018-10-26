@@ -1,0 +1,14 @@
+state={
+	id=44
+	name="STATE_44"
+	provinces={
+		2070 2073 4243 4244 4247 4248 8601 8919 2072 3985 3986 3987 6536 10287 10130 5512 4246 8102 1831 7680 3499 8101 7759 1832 7681 8920 2071 1836 8308 1835 3984  
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = WER
+		buildings = {	}
+		add_core_of = WER
+	}
+}

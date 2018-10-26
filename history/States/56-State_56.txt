@@ -1,0 +1,20 @@
+
+state={
+	id=56
+	name="STATE_56"
+
+	history={
+		owner = LUZ
+		buildings = {
+
+		}
+		add_core_of = LUZ
+
+	}
+
+	provinces={
+		2654 2655 2656 3217 3218 5885 5886 5887 6357 7376 9026 10144 10172 10289 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

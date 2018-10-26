@@ -1,0 +1,20 @@
+
+state={
+	id=405
+	name="STATE_405"
+
+	history={
+		owner = ART
+		buildings = {
+
+		}
+		add_core_of = ART
+
+	}
+
+	provinces={
+		2323 2325 4768 5499 5831 5833 5834 6940 7486 7487 8202 8301 8302 8962 8963 9521 9696 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

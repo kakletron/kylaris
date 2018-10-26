@@ -1,0 +1,158 @@
+bookmarks = {
+	bookmark = {
+		name = "CHANGING_WORLD_NAME"
+		desc = "CHANGING_WORLD_DESC"
+		date = 1924.1.1.12
+		picture = "GFX_select_date_1924"
+		default_country = "GAL"
+		default = yes
+		
+		"WER"={
+			history = "WER_CHANGING_WORLD_DESC"
+			ideology = traditionalist
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"FOA"={
+			history = "FOA_CHANGING_WORLD_DESC"
+			ideology = liberal_democrat
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"EST"={
+			history = "EST_CHANGING_WORLD_DESC"
+			ideology = liberal_democrat
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"GAL"={
+			history = "GAL_CHANGING_WORLD_DESC"
+			ideology = functionalist
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"ETR"={
+			history = "ETR_CHANGING_WORLD_DESC"
+			ideology = liberal_democrat
+			ideas={
+			}
+			focuses = {
+			}		
+		}
+		"NEG"={
+			history = "NEG_CHANGING_WORLD_DESC"
+			ideology = liberal_democrat
+			ideas={
+			}
+			focuses = {
+			}			
+		}
+		"MAR"={
+			history = "MAR_CHANGING_WORLD_DESC"
+			ideology = collectivist
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+
+		"---"={
+			history = "OTHER_CHANGING_WORLD_DESC"
+		}
+
+
+		# minors ####
+		"BER"={
+			minor = yes
+			history = "BER_CHANGING_WORLD_DESC"
+			ideology = traditionalist
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		
+		"SON"={
+			minor = yes
+			history = "SON_CHANGING_WORLD_DESC"
+			ideology = traditionalist
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+
+		"NEM"={
+			minor = yes
+			history = "NEM_CHANGING_WORLD_DESC"
+			ideology = traditionalist
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+
+		"AMA"={
+			minor = yes
+			history = "AMA_CHANGING_WORLD_DESC"
+			ideology = functionalist
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		
+		"FLO"={
+			minor = yes
+			history = "FLO_CHANGING_WORLD_DESC"
+			ideology = traditionalist
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		
+		"MRI"={
+			minor = yes
+			history = "MRI_CHANGING_WORLD_DESC"
+			ideology = functionalist
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		
+		"NIM"={
+			minor = yes
+			history = "NIM_CHANGING_WORLD_DESC"
+			ideology = functionalist
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		
+		"SAT"={
+			minor = yes
+			history = "SAT_CHANGING_WORLD_DESC"
+			ideology = functionalist
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

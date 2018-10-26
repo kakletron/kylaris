@@ -1,0 +1,20 @@
+
+state={
+	id=650
+	name="STATE_650"
+
+	history={
+		owner = NEM
+		buildings = {
+
+		}
+		add_core_of = NEM
+
+	}
+
+	provinces={
+		1340 1341 4794 4796 4797 4798 4859 6547 6548 6549 7919 8444 8734 9319 10223 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,20 @@
+
+state={
+	id=485
+	name="STATE_485"
+
+	history={
+		owner = SAR
+		buildings = {
+
+		}
+		add_core_of = SAR
+
+	}
+
+	provinces={
+		1940 1941 1942 1946 1947 2859 2860 6436 6437 6931 8107 9755 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,14 @@
+state={
+	id=615
+	name="STATE_615"
+	provinces={
+		6134 6717 10105 10341 10342 10343 8972 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = TEK
+		buildings = {	}
+		add_core_of = TEK
+	}
+}

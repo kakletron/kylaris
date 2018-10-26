@@ -1,0 +1,20 @@
+
+state={
+	id=147
+	name="STATE_147"
+
+	history={
+		owner = EST
+		buildings = {
+
+		}
+		add_core_of = EST
+
+	}
+
+	provinces={
+		1215 4416 4418 4419 4420 4421 4422 4423 4900 5056 5057 5058 6566 6761 8732 10017 10159 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

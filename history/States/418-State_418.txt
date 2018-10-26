@@ -1,0 +1,20 @@
+
+state={
+	id=418
+	name="STATE_418"
+
+	history={
+		owner = SAT
+		buildings = {
+
+		}
+		add_core_of = SAT
+
+	}
+
+	provinces={
+		8 878 879 880 881 882 883 886 887 2787 2788 2789 2795 2796 2797 3003 3004 3005 3630 4612 4613 4614 5384 5385 6275 6314 8699 8917 9459 9527 9790 9957 10020 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

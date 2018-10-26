@@ -1,0 +1,19 @@
+
+state={
+	id=444
+	name="STATE_444"
+
+	history={
+		owner = ETR
+		buildings = {
+
+		}
+
+	}
+
+	provinces={
+		2306 4049 4050 6406 6718 6719 6720 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

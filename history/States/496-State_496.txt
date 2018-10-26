@@ -1,0 +1,13 @@
+state={
+	id=496
+	name="STATE_496"
+	provinces={
+		3391 10265 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = EST
+		buildings = {		}
+	}
+}

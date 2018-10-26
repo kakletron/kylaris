@@ -1,0 +1,48 @@
+###########################
+# Gaullica Events
+###########################
+
+add_namespace = gaullica
+
+# The Fall of Carcosa (Gaullica)
+news_event = {
+	id = gaullica.1
+	title = gaullica.1.t
+	desc = gaullica.1.d
+	picture = GFX_news_event_soldiers_marching
+	
+	major = yes
+	
+	trigger = {
+		16 = { is_controlled_by = GAL }
+		16 = { is_owned_by = CAR }
+		GAL = { has_war_with = CAR }
+		NOT = { has_global_flag = fall_of_carcosa_gal }
+	}
+	
+	immediate = {
+		set_global_flag = fall_of_carcosa_gal
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = gaullica.1.a
+		trigger = {
+			NOT = {
+				TAG = GAL
+				TAG = CAR
+			}
+		}
+	}
+	option = {
+		name = gaullica.1.b
+		trigger = { TAG = CAR }
+	}
+	option = {
+		name = gaullica.1.c
+		trigger = { TAG = GAL }
+	}
+}

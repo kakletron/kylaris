@@ -1,0 +1,19 @@
+
+state={
+	id=577
+	name="STATE_577"
+
+	history={
+		owner = ETR
+		buildings = {
+
+		}
+
+	}
+
+	provinces={
+		498 499 5184 7017 7018 8140 8141 8722 8723 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

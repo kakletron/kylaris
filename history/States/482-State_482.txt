@@ -1,0 +1,14 @@
+state={
+	id=482
+	name="STATE_482"
+	provinces={
+		2899 2900 4280 6563 8144 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = VIL
+		buildings = {	}
+		add_core_of = VIL
+	}
+}

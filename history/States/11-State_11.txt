@@ -1,0 +1,14 @@
+state={
+	id=11
+	name="STATE_11"
+	provinces={
+		1135 1136 1137 1138 1139 1140 2030 2031 2197 2198 7060 7061 8521 6439 6068 7375 2848 2849 5345 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = GLT
+		buildings = {	}
+		add_core_of = GLT
+	}
+}

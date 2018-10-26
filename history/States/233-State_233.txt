@@ -1,0 +1,14 @@
+state={
+	id=233
+	name="STATE_233"
+	provinces={
+		1985 2933 2934 5399 5400 9022 9055 4700 9040 1611 10019 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = JOS
+		buildings = {	}
+		add_core_of = JOS
+	}
+}

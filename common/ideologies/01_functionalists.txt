@@ -1,0 +1,47 @@
+ideologies = {
+
+	functionalist = {
+		
+		types = {
+		
+			duclerquist = {	#gaullica
+			}
+			
+			functionalist_ideology = { #og functionalismo
+			}
+			
+			collaborationist = { #collaborationist govts
+			}
+			
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_FUNCTIONALIST_1"
+			"FACTION_NAME_FUNCTIONALIST_2"
+			"FACTION_NAME_FUNCTIONALIST_3"
+			"FACTION_NAME_FUNCTIONALIST_4"
+			"FACTION_NAME_FUNCTIONALIST_5"
+			"FACTION_NAME_FUNCTIONALIST_6"
+		}
+		
+		color = { 50 50 50 }
+		
+		war_impact_on_world_tension = 3
+		faction_impact_on_world_tension = 3
+		
+		rules = {
+			can_force_government = no
+			can_send_volunteers = yes
+			can_puppet = yes
+		}
+		
+		modifiers = {
+			join_faction_tension = 0.05
+			lend_lease_tension = 0.05
+			send_volunteers_tension = 0.05
+			guarantee_tension = 0.05
+		}
+		
+	}
+
+}

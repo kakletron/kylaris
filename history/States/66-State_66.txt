@@ -1,0 +1,14 @@
+state={
+	id=66
+	name="STATE_66"
+	provinces={
+		2001 4051 6254 7585 8927 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = WER
+		buildings = {	}
+		add_core_of = WER
+	}
+}

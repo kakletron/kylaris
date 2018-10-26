@@ -1,0 +1,20 @@
+
+state={
+	id=588
+	name="STATE_588"
+
+	history={
+		owner = STN
+		buildings = {
+
+		}
+		add_core_of = STN
+
+	}
+
+	provinces={
+		472 1638 1639 1642 1643 1645 1646 1647 2132 2133 3313 4076 4077 8288 8956 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

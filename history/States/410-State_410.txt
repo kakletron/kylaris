@@ -1,0 +1,14 @@
+state={
+	id=410
+	name="STATE_410"
+	provinces={
+		2493 2494 2495 8180 5558 5559 6384 8213 9129 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = RHA
+		buildings = {	}
+		add_core_of = RHA
+	}
+}

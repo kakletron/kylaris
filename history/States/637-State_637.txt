@@ -1,0 +1,14 @@
+state={
+	id=637
+	name="STATE_637"
+	provinces={
+		1968 1969 1967 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = TEK
+		buildings = {	}
+		add_core_of = TEK
+	}
+}

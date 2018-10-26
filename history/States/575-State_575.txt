@@ -1,0 +1,20 @@
+
+state={
+	id=575
+	name="STATE_575"
+
+	history={
+		owner = KOE
+		buildings = {
+
+		}
+		add_core_of = KOE
+
+	}
+
+	provinces={
+		473 474 475 3357 3358 3359 4649 4650 6776 6777 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

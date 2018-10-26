@@ -1,0 +1,14 @@
+state={
+	id=119
+	name="STATE_119"
+	provinces={
+		3346 4565 5904 5905 7797 7945 8476 8479 8928 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = SIP
+		buildings = {	}
+		add_core_of = SIP
+	}
+}

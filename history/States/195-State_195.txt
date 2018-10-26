@@ -1,0 +1,14 @@
+state={
+	id=195
+	name="STATE_195"
+	provinces={
+		8057 135 9856 136 6920 9622 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = GAL
+		buildings = {	}
+		add_core_of = WAS
+	}
+}

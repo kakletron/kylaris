@@ -1,0 +1,20 @@
+
+state={
+	id=193
+	name="STATE_193"
+
+	history={
+		owner = GAL
+		buildings = {
+
+		}
+		add_core_of = GAL
+
+	}
+
+	provinces={
+		602 610 611 5325 9404 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

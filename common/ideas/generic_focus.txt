@@ -1,0 +1,225 @@
+ideas = {
+
+	country = {
+
+	# Generic Focus Ideas
+		
+		leftward_drift = {
+			
+		
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = collectivist
+				has_government = radical_populist
+			}
+		
+			removal_cost = -1
+
+			picture = generic_communism_drift_bonus
+
+			modifier = {
+				functionalist_drift = -0.02
+			}
+		}
+		
+		stalwart_centre = {
+			
+		
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = radical_populist
+				has_government = liberal_democrat
+				has_government = traditionalist
+			}
+		
+			removal_cost = -1
+
+			picture = generic_democratic_drift_bonus
+
+			modifier = {
+				functionalist_drift = -0.01
+				collectivist_drift = -0.01
+			}
+		}
+		
+		rightward_drift = {
+			
+		
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = traditionalist
+				has_government = functionalist
+			}
+		
+			removal_cost = -1
+
+			picture = generic_fascism_drift_bonus
+
+			modifier = {
+				collectivist_drift = -0.02
+			}
+		}
+		
+		share_the_wealth = {
+			
+		
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = collectivist
+				has_government = radical_populist
+			}
+		
+			removal_cost = -1
+
+			picture = FRA_matignon_agreements
+
+			modifier = {
+				stability_factor = 0.10
+			}
+		}
+		
+		support_small_businesses = {
+			
+		
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = liberal_democrat
+				has_government = traditionalist
+			}
+		
+			removal_cost = -1
+
+			picture = generic_goods_red_bonus
+
+			modifier = {
+				consumer_goods_factor = -0.10
+			}
+		}
+		
+		supreme_leader = {
+			
+		
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = functionalist
+			}
+		
+			removal_cost = -1
+
+			picture = vittoria_mutilata
+
+			modifier = {
+				war_support_factor = 0.05
+				army_org_factor = 0.05
+				planning_speed = 0.05
+			}
+		}
+		
+		greater_good = {
+			
+		
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = collectivist
+			}
+		
+			removal_cost = -1
+
+			picture = idea_generic_deal_with_the_devil
+
+			modifier = {
+				army_morale_factor = 0.05
+				army_attack_factor = 0.05
+			}
+		}
+		
+		welfare = {
+			
+		
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = radical_populist
+				has_government = liberal_democrat
+			}
+		
+			removal_cost = -1
+
+			picture = idea_generic_political_support
+
+			modifier = {
+				consumer_goods_factor = 0.02
+				stability_factor = 0.07
+				war_support_factor = 0.07
+			}
+		}
+		
+		veteran_care = {
+			
+		
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = functionalist
+				has_government = traditionalist
+			}
+		
+			removal_cost = -1
+
+			picture = idea_generic_reserve_divisions
+
+			modifier = {
+				send_volunteers_tension = -0.50
+				conscription_factor = 0.05
+			}
+		}
+		
+		coercive_conscription = {
+			
+		
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = collectivist
+			}
+		
+			removal_cost = -1
+
+			picture = officers_purged
+
+			modifier = {
+				conscription_factor = 0.15
+				army_morale_factor = -0.02
+				training_time_factor = 0.02
+			}
+		}
+	}
+
+}

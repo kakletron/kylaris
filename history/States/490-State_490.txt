@@ -1,0 +1,14 @@
+state={
+	id=490
+	name="STATE_490"
+	provinces={
+		9160 7497 6278 2587 2581 9159 2580 9152 2586 2579 2588 7756 4783 4782 4781 2589 2578 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = NIM
+		buildings = {	}
+		add_core_of = NIM
+	}
+}

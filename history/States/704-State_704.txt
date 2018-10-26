@@ -1,0 +1,13 @@
+state={
+	id=704
+	name="STATE_704"
+	provinces={
+		297 298 299 300 301 302 2613 3779 3780 3781 3782 7686 8542 9694 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = WER
+		buildings = {	}
+	}
+}

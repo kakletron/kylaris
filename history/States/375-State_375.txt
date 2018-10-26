@@ -1,0 +1,13 @@
+state={
+	id=375
+	name="STATE_375"
+	provinces={
+		8187 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = ETR
+		buildings = {		}
+	}
+}

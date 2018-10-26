@@ -1,0 +1,20 @@
+
+state={
+	id=85
+	name="STATE_85"
+
+	history={
+		owner = WAL
+		buildings = {
+
+		}
+		add_core_of = WAL
+
+	}
+
+	provinces={
+		1759 1760 2998 2999 3000 3001 3002 3389 4981 4982 8206 8400 8678 8679 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

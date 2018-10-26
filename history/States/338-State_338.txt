@@ -1,0 +1,19 @@
+
+state={
+	id=338
+	name="STATE_338"
+
+	history={
+		owner = EST
+		buildings = {
+
+		}
+
+	}
+
+	provinces={
+		714 715 2974 2975 6601 6602 6603 9910 9911 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}
